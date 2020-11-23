@@ -11,20 +11,20 @@
 
 # Índice
 
-1. [Requrimientos del Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-del-sistema)
+1. [Requrimientos del Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
     1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
     2. [Descripción general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#descripción-general)
     3. [Requerimientos de interfaz externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-de-interfaz-externa)
     4. [Funcionalidades del sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-del-sistema)
     5. [Otros requerimientos no funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#otros-requerimientos-no-funcionales)
-2. [Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#plan-de-calidad)
+2. [Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
     1. [Identificador del plan de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#identificador-del-plan-de-prueba)
     2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#referencias)
-    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
+    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción-1)
     4. [Elementos de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#elementos-de-prueba)
     5. [Problemas de riesgo del software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#problemas-de-riesgo-del-software)
     6. [Funcionalidades a probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-a-probar)
-    7. [Funcionalidades que no deben probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-debe-probarse)
+    7. [Funcionalidades que no deben probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-deben-probarse)
     8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#enfoque)
     9. [Críterios de aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-aprobación/falla)
     10. [Criterios de suspensión y requisitos de reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-suspensión-y-requisitos-de-reanudación)
@@ -47,12 +47,21 @@
 ## Introducción
 
 ### Propósito
+En este documento se describen las especificaciones de los requerimientos del sistema _NombreApp_, el cual es un gestor de chats exclusivo para el Instituto Tecnológico Autónomo de México (ITAM).  _NombreApp_ es un medio para que los alumnos del ITAM puedan comunicarse entre ellos, así como también poder entablar conversaciones con profesores y del personal administrativo. _NombreApp_ tiene como objetivo mejorar la experiencia de los estudiantes facilitándoles los recursos para poder expresarse y desarrollarse de la mejor manera en su vida diaria como estudiante. A continuación, proporcionaremos a describir detalladamente el software de _NombreApp_ 1.0.
 
 ### Convenciones del documento
 
-### Público objetivo y sugerenicas de lectura
+En este documento se hace uso del estándar de la IEEE para SRS del SIO/IEC/IEEE 29148.
+
+Para el manejo de las prioridades en las funcionalidades se manejará el rango 1-3, donde 1 significa que la prioridad es indispensable y 3 es que se puede prescindir de ella.
+
+### Público objetivo y sugerencicas de lectura
+
+Este documento está intencionado para los desarrolladores que estan acargo del mantenimiento del sistema _NombreApp_, se espera que este cuerpo sea parte del personal administritativo de cómputo del ITAM. Se les sugiere leer todo el documento la primera vez, y posteriormente apoyarse en el índice para poder tener un lectura rápida de las dudas que se generen en un futuro sobre el sistema.
 
 ### Alcance del producto
+
+
 
 ## Descripción general
 
