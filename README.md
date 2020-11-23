@@ -1,5 +1,5 @@
 
-**Proyecto Final:** 
+**Proyecto Final: ConectaITAM** 
 
 **Equipo:** Delfines en Éxtasis
 
@@ -47,7 +47,7 @@
 ## Introducción
 
 ### Propósito
-En este documento se describen las especificaciones de los requerimientos del sistema _NombreApp_, el cual es un gestor de chats exclusivo para el Instituto Tecnológico Autónomo de México (ITAM).  _NombreApp_ es un medio para que los alumnos del ITAM puedan comunicarse entre ellos, así como también poder entablar conversaciones con profesores y del personal administrativo. _NombreApp_ tiene como objetivo mejorar la experiencia de los estudiantes facilitándoles los recursos para poder expresarse y desarrollarse de la mejor manera en su vida diaria como estudiante. A continuación, proporcionaremos a describir detalladamente el software de _NombreApp_ 1.0.
+En este documento se describen las especificaciones de los requerimientos del sistema ConectaITAM, el cual es un gestor de chats exclusivo para el Instituto Tecnológico Autónomo de México (ITAM).  ConectaITAM es un medio para que los alumnos del ITAM puedan comunicarse entre ellos, así como también poder entablar conversaciones con profesores y del personal administrativo. ConectaITAM tiene como objetivo mejorar la experiencia de los estudiantes facilitándoles los recursos para poder expresarse y desarrollarse de la mejor manera en su vida diaria como estudiante. A continuación, proporcionaremos a describir detalladamente el software de ConectaITAM 1.0.
 
 ### Convenciones del documento
 
@@ -57,11 +57,20 @@ Para el manejo de las prioridades en las funcionalidades se manejará el rango 1
 
 ### Público objetivo y sugerencicas de lectura
 
-Este documento está intencionado para los desarrolladores que estan acargo del mantenimiento del sistema _NombreApp_, se espera que este cuerpo sea parte del personal administritativo de cómputo del ITAM. Se les sugiere leer todo el documento la primera vez, y posteriormente apoyarse en el índice para poder tener un lectura rápida de las dudas que se generen en un futuro sobre el sistema.
+Este documento está intencionado para los desarrolladores que estan acargo del mantenimiento del sistema ConectaITAM, se espera que este cuerpo sea parte del personal administritativo de cómputo del ITAM. Se les sugiere leer todo el documento la primera vez, y posteriormente apoyarse en el índice para poder tener un lectura rápida de las dudas que se generen en un futuro sobre el sistema.
 
 ### Alcance del producto
 
+ConectaITAM es un software que permitirá a los alumnos del ITAM tener una aplicación para la comunicación rápida con todos los estudiantes, profesores y personal administrativo del ITAM.
 
+ConectaITAM tiene como metas:
+- Proporcionar un nuevo medio para la comunicación entre toda la comunidad. Ir más allá del correo electrónico institucional.
+- Llegar a ser el principal conducto de comunicación para los asuntos escolares dentro de la comunidad.
+- Mejorar las relaciones alumno-profesor, alumno-personal administrativo y profesor-personal administrativo.
+- Mejorar la experiencia de vida institucional.
+    + Los alumnos tendrán un medio para obtener de manera fácil información sobre las dudas que pueda tener tanto de la clase como de los asuntos administrativos.
+    + Los profesores tendrán un medio para poder dar a conocer notificiones urgentes como avisos imprevistos, así como también podrán ofrecer de manera personalizada ayuda a sus clases y alumnos.
+    + Los administrativos podrán reducir su carga de trabajo pues a través de la aplicación del chat podrán ofrecer información general, por medio de un chatbot, y evitar que los alumnos acudan a sus instalaciones para tareas pequeñas y monótonas.
 
 ## Descripción general
 
