@@ -1,20 +1,29 @@
-# Delfines
 
-# 1   TEST PLAN IDENTIFIER           RS-MTP01.3
-# 2   REFERENCES
-# 3   INTRODUCTION
-# 4   TEST ITEMS
-# 5   SOFTWARE RISK ISSUES
-# 6   FEATURES TO BE TESTED
-# 7   FEATURES NOT TO BE TESTED
-# 8   APPROACH
-# 9   ITEAM PASS/FAIL CRITERIA
-# 10  SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
-# 11  TEST DELIVERABLES
-# 12  REMAINING TEST TASKS
-# 13  ENVIRONMENTAL NEEDS
-# 14  STAFFING AND TRAINING NEEDS 
-# 15  RESPONSIBILITIES
-# 16  SCHEDULE
-# 17 PLANNING RISKS AND CONTINGENCIES
-# 18  APPROVALS
+**Proyecto Final:** 
+
+**Equipo:** Delfines en Éxtasis
+
+**Integrantes:**
+- Jacqueline Lira Chávez - 
+- José Luis Sandín Espinosa -
+- Mónica Hernández Martínez - 163543
+- Piero ...
+
+# Índice
+[1. Requrimientos del Sistema]()
+[2. Plan de Calidad]()
+[3. Arquitectura]()
+[4. Metodología]()
+[5. Instrucciones para replicar]()
+
+# 1. Requerimientos del Sistema
+
+
+# 2. Plan de Calidad
+
+# 3. Arquitectura
+
+# 4. Metodología
+
+# 5. Instrucciones para replicar
+
