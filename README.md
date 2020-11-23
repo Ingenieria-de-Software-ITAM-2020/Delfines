@@ -11,27 +11,40 @@
 
 # Índice
 
-[1. Requrimientos del Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
-
-[1.1 Introducción]()
-
-[1.2 Descripción general]()
-
-[1.3 
-
-[2. Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
-
-[3. Arquitectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#3-arquitectura)
-
-[4. Metodología](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#4-metodología)
-
-[5. Instrucciones para replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
-
-[6. Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#6-presentación)
+1. [Requrimientos del Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-del-sistema)
+    1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
+    2. [Descripción general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#descripción-general)
+    3. [Requerimientos de interfaz externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-de-interfaz-externa)
+    4. [Funcionalidades del sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-del-sistema)
+    5. [Otros requerimientos no funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#otros-requerimientos-no-funcionales)
+2. [Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#plan-de-calidad)
+    1. [Identificador del plan de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#identificador-del-plan-de-prueba)
+    2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#referencias)
+    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
+    4. [Elementos de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#elementos-de-prueba)
+    5. [Problemas de riesgo del software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#problemas-de-riesgo-del-software)
+    6. [Funcionalidades a probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-a-probar)
+    7. [Funcionalidades que no deben probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-debe-probarse)
+    8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#enfoque)
+    9. [Críterios de aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-aprobación/falla)
+    10. [Criterios de suspensión y requisitos de reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-suspensión-y-requisitos-de-reanudación)
+    11. [Entregables de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#entregables-de-prueba)
+    12. [Tareas de pruebas restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#tareas-de-pruebas-restantes)
+    13. [Necesidades ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-ambientales)
+    14. [Necesidades del personal y capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-del-personal-y-capacitación)
+    15. [Responsabilidades](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#responsabilidades)
+    16. [Calendario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#calendario)
+    17. [Planificación de riesgos y contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#planificación-de-riesgos-y-contingencias)
+    18. [Aprobación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#aprobación)
+    19. [Glosario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#glosario)
+3. [Arquitectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#3-arquitectura)
+4. [Metodología](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#4-metodología)
+5. [Instrucciones para replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
+6. [Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#6-presentación)
 
 # 1. Requerimientos del Sistema
 
-## 1.1 Introducción
+## Introducción
 
 ### Propósito
 
@@ -41,7 +54,7 @@
 
 ### Alcance del producto
 
-## 1.2 Descripción general
+## Descripción general
 
 ### Perspectiva del producto
 
@@ -57,7 +70,7 @@
 
 ### Suposiciones y dependencias
 
-## 1.3 Requerimientos de interfaz externa
+## Requerimientos de interfaz externa
 
 ### Interfaces de usuario
 
@@ -67,7 +80,7 @@
 
 ### Interfaces de comunicaciones
 
-## 1.4 Funcionalidades del sistema
+## Funcionalidades del sistema
 
 ### Iniciar sesión
 
@@ -77,7 +90,7 @@
 
 ### 
 
-## 1.5 Otros requerimientos no funcionales
+## Otros requerimientos no funcionales
 
 ### Requerimientos de rendimiento
 
@@ -92,43 +105,43 @@
 
 # 2. Plan de Calidad
 
-## 2.1 Identificador del plan de prueba
+## Identificador del plan de prueba
 
-## 2.2 Referencias
+## Referencias
 
-## 2.3 Introducción
+## Introducción
 
-## 2.4 Elementos de prueba
+## Elementos de prueba
 
-## 2.5 Problemas de riesgo del software
+## Problemas de riesgo del software
 
-## 2.6 Funcionalidades a probar
+## Funcionalidades a probar
 
-## 2.7 Funcionalidades que no deben probarse
+## Funcionalidades que no deben probarse
 
-## 2.8 Enfoque
+## Enfoque
 
-## 2.9 Críterios de aprobación/falla
+## Críterios de aprobación/falla
 
-## 2.10 Criterios de suspensión y requisitos de reanudación
+## Criterios de suspensión y requisitos de reanudación
 
-## 2.11 Entregables de prueba
+## Entregables de prueba
 
-## 2.12 Tareas de pruebas restantes
+## Tareas de pruebas restantes
 
-## 2.13 Necesidades ambientales
+## Necesidades ambientales
 
-## 2.14 Necesidades del personal y capacitación
+## Necesidades del personal y capacitación
 
-## 2.15 Responsabilidades
+## Responsabilidades
 
-## 2.16 Calendario
+## Calendario
 
-## 2.17 Planificación de riesgos y contingencias
+## Planificación de riesgos y contingencias
 
-## 2.18 Aprobación
+## Aprobación
 
-## 2.19 Glosario
+## Glosario
 
 # 3. Arquitectura
 
