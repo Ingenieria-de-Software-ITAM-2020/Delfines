@@ -188,7 +188,6 @@ ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la ins
 + **SE-6:** Se realizará constantemente copias de seguridad para mantener la integridad y confiabilidad de la base de datos.
 + **SE-7:** Los alumnos, no podrán gestionar de ninguna forma los grupos predefinidos por los administradores del sistema.
 + **SE-8:** Los profesores, junto con los administradores serán los únicos en gestionar los grupos predefinidos.
-+ **SE-9:** Los administrativos y profesores podrán bloquear temporalmente la visión de los nuevos mensajes directos de los alumnos para así mantener la comunicación libre en caso de sucesos agendados, privados, urgentes o graves. Después de desactivar esta función los mensajes recibidos durante el bloqueo se visualizarán normalmente.
 
 ### Atributos de calidad de software
 
