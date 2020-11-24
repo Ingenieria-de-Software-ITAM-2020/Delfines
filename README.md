@@ -1,3 +1,4 @@
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/encabezado.png)
 
 **Proyecto Final: ConectaITAM** 
 
