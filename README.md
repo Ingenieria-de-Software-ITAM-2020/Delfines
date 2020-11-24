@@ -1,5 +1,7 @@
 ![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/encabezado.png)
 
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/logo.png)
+
 **Proyecto Final: ConectaITAM** 
 
 **Equipo:** Delfines en Éxtasis
@@ -120,7 +122,6 @@ ConectaITAM estará restringido a las siguientes limitaciones:
 + **DIC-3:** Se limitará el tamaño de los archivos multimedia compartidos mediante el chat.
 + **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat. Solo ciertas extenciones serán válidas.
 + **DIC-5:** No se permitirán llamadas ni videollamadas.
-+ **DIC-6:** Algunos usuarios solo podrán recibir mensajes directos si existe ya una conversación, de no ser así este usuario tendrá que iniciarla.
 
 ### Documentación del usuario
 
@@ -149,21 +150,45 @@ ConectaITAM contará con las siguientes dependencias:
 
 ## Funcionalidades del sistema
 
-### Iniciar sesión
+### Iniciar sesión 
 
 ### Buscar contacto
 
 ### Creación de chat grupales
 
-### 
+### ...
 
 ## Otros requerimientos no funcionales
 
 ### Requerimientos de rendimiento
 
+ConectaITAM deberá mostrar el siguiente desempeño:
++ El sistema deberá de actualizarse en tiempo real.
++ Cualquier solicitud deberá responderse en menos de 500ms.
+El desempeño dependerá del estado de los servidores y de la base de datos del ITAM.
+
 ### Requerimientos de seguridad (Safety)
 
+ConectaITAM sigue los lineamientos de acuerdo a los estatutos de la institución. Por ello, nos apegamos a salvaguardar la integridad de nuestros usuarios y velar por su salud y seguridad personal.
+
++ **SA-1:** Se restringirá el lenguaje agresivo que los usuarios podrían usar durante sus conversaciones. 
++ **SA-2:** Se contará con una opción para notificar la revisión de menajes que puedieran agraviar a una persona.
++ **SA-3:** Se podrá bloquear la comunicación y denunciar al usuario haga mal uso de la herramienta.
++ **SA-4:** En casos extremos de acoso o agresión se podrá realizar una comunicación directa con un administrativo de servicios escolares adjuntando una copia de seguridad del chat del usuario que se está reportando.
+
 ### Requerimientos de seguridad (Security)
+
+ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la institución. Por ello se siguen los siguientes requerimientos de protección, pues al ser una aplicación de chat para los asuntos escolares del ITAM, nos vemos en la necesidad de proteger la confidencialidad que la institución siempre ha protegido.
+
++ **SE-1:** Todos los usuarios de la aplicación serán validados directamente por la institución, de no ser así no podrán utilizar el sistema.
++ **SE-2:** Se manejará una lista de dispositivos de confianza para todos los usuarios.
++ **SE-3:** El inicio de sesión en nuevo dispositivo tendrá que realizar una verificación de dos pasos y se podrá marcar si este nuevo dispositivo será o no de confianza.
++ **SE-4:** La información sensible de los usuarios será protegida y encriptada, para proteger de cualquier robo de información o ataque.
++ **SE-5:** Los mensajes, tanto privados como públicos, serán encriptados para mantener la confidencialidad de los asuntos escolares de la institución.
++ **SE-6:** Se realizará constantemente copias de seguridad para mantener la integridad y confiabilidad de la base de datos.
++ **SE-7:** Los alumnos, no podrán gestionar de ninguna forma los grupos predefinidos por los administradores del sistema.
++ **SE-8:** Los profesores, junto con los administradores serán los únicos en gestionar los grupos predefinidos.
++ **SE-9:** Los administrativos y profesores podrán bloquear temporalmente la visión de los nuevos mensajes directos de los alumnos para así mantener la comunicación libre en caso de sucesos agendados, privados, urgentes o graves. Después de desactivar esta función los mensajes recibidos durante el bloqueo se visualizarán normalmente.
 
 ### Atributos de calidad de software
 
