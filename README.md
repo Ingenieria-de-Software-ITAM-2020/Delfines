@@ -8,9 +8,9 @@
 
 **Integrantes:**
 - Jacqueline Lira Chávez - 167334
-- José Luis Sandín Espinosa -
+- José Luis Sandín Espinosa - 179706
 - Mónica Hernández Martínez - 163543
-- Piero ...
+- Piero Vera Stephens - 179915
 
 # Índice
 
