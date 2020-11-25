@@ -66,7 +66,7 @@
 
 # 1. Requerimientos del Sistema
 
-## Introducción
+## 1.1 Introducción
 
 ### Propósito
 
@@ -105,7 +105,7 @@ ConectaITAM tiene como metas:
     + Los profesores tendrán un medio para poder dar a conocer notificiones urgentes como avisos imprevistos, así como también podrán ofrecer de manera personalizada ayuda a sus clases y alumnos.
     + Los administrativos podrán reducir su carga de trabajo pues a través de la aplicación del chat podrán ofrecer información general, por medio de un chatbot, y evitar que los alumnos acudan a sus instalaciones para tareas pequeñas y monótonas.
 
-## Descripción general
+## 1.2 Descripción general
 
 ### Perspectiva del producto
 
@@ -167,7 +167,7 @@ ConectaITAM contará con las siguientes dependencias:
 + **AS-3:** Se asume que la aplicación podrá funcionar adecuadamente con aproximadamente 6,000 usuarios.
 + **AS-4:** Se presume que los usuarios tendrán actualizado sus sistemas operativos y navegadores web.
 
-## Requerimientos de interfaz externa
+## 1.3 Requerimientos de interfaz externa
 
 ### Interfaces de usuario
 
@@ -177,7 +177,7 @@ ConectaITAM contará con las siguientes dependencias:
 
 ### Interfaces de comunicaciones
 
-## Funcionalidades del sistema
+## 1.4 Funcionalidades del sistema
 
 ### Iniciar sesión 
 
@@ -187,7 +187,7 @@ ConectaITAM contará con las siguientes dependencias:
 
 ### ...
 
-## Otros requerimientos no funcionales
+## 1.5 Otros requerimientos no funcionales
 
 ### Requerimientos de rendimiento
 
@@ -225,43 +225,43 @@ ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la ins
 
 # 2. Plan de Calidad
 
-## Identificador del plan de prueba
+## 2.1 Identificador del plan de prueba
 
-## Referencias
+## 2.2 Referencias
 
-## Introducción
+## 2.3 Introducción
 
-## Elementos de prueba
+## 2.4 Elementos de prueba
 
-## Problemas de riesgo del software
+## 2.5 Problemas de riesgo del software
 
-## Funcionalidades a probar
+## 2.6 Funcionalidades a probar
 
-## Funcionalidades que no deben probarse
+## 2.7 Funcionalidades que no deben probarse
 
-## Enfoque
+## 2.8 Enfoque
 
-## Críterios de aprobación/falla
+## 2.9 Críterios de aprobación/falla
 
-## Criterios de suspensión y requisitos de reanudación
+## 2.10 Criterios de suspensión y requisitos de reanudación
 
-## Entregables de prueba
+## 2.11 Entregables de prueba
 
-## Tareas de pruebas restantes
+## 2.12 Tareas de pruebas restantes
 
-## Necesidades ambientales
+## 2.13 Necesidades ambientales
 
-## Necesidades del personal y capacitación
+## 2.14 Necesidades del personal y capacitación
 
-## Responsabilidades
+## 2.15 Responsabilidades
 
-## Calendario
+## 2.16 Calendario
 
-## Planificación de riesgos y contingencias
+## 2.17 Planificación de riesgos y contingencias
 
-## Aprobación
+## 2.18 Aprobación
 
-## Glosario
+## 2.19 Glosario
 
 # 3. Arquitectura
 
