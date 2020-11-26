@@ -14,199 +14,131 @@
 
 # Índice
 
-1. [Requrimientos del
-   Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
+1. [Requrimientos del Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
     1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
-    2. [Descripción
-       general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#descripción-general)
-    3. [Requerimientos de interfaz
-       externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-de-interfaz-externa)
-    4. [Funcionalidades del
-       sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-del-sistema)
-    5. [Otros requerimientos no
-       funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#otros-requerimientos-no-funcionales)
-2. [Plan de
-   Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
-    1. [Identificador del plan de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#identificador-del-plan-de-prueba)
+    2. [Descripción general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#descripción-general)
+    3. [Requerimientos de interfaz externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-de-interfaz-externa)
+    4. [Funcionalidades del sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-del-sistema)
+    5. [Otros requerimientos no funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#otros-requerimientos-no-funcionales)
+2. [Plan de Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
+    1. [Identificador del plan de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#identificador-del-plan-de-prueba)
     2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#referencias)
     3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción-1)
-    4. [Elementos de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#elementos-de-prueba)
-    5. [Problemas de riesgo del
-       software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#problemas-de-riesgo-del-software)
-    6. [Funcionalidades a
-       probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-a-probar)
-    7. [Funcionalidades que no deben
-       probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-deben-probarse)
+    4. [Elementos de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#elementos-de-prueba)
+    5. [Problemas de riesgo del software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#problemas-de-riesgo-del-software)
+    6. [Funcionalidades a probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-a-probar)
+    7. [Funcionalidades que no deben probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-deben-probarse)
     8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#enfoque)
-    9. [Críterios de
-       aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-aprobación/falla)
-    10. [Criterios de suspensión y requisitos de
-        reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-suspensión-y-requisitos-de-reanudación)
-    11. [Entregables de
-        prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#entregables-de-prueba)
-    12. [Tareas de pruebas
-        restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#tareas-de-pruebas-restantes)
-    13. [Necesidades
-        ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-ambientales)
-    14. [Necesidades del personal y
-        capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-del-personal-y-capacitación)
+    9. [Críterios de aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-aprobación/falla)
+    10. [Criterios de suspensión y requisitos de reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-suspensión-y-requisitos-de-reanudación)
+    11. [Entregables de prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#entregables-de-prueba)
+    12. [Tareas de pruebas restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#tareas-de-pruebas-restantes)
+    13. [Necesidades ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-ambientales)
+    14. [Necesidades del personal y capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-del-personal-y-capacitación)
     15. [Responsabilidades](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#responsabilidades)
     16. [Calendario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#calendario)
-    17. [Planificación de riesgos y
-        contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#planificación-de-riesgos-y-contingencias)
+    17. [Planificación de riesgos y contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#planificación-de-riesgos-y-contingencias)
     18. [Aprobación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#aprobación)
     19. [Glosario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#glosario)
 3. [Arquitectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#3-arquitectura)
 4. [Metodología](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#4-metodología)
-5. [Instrucciones para
-   replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
+5. [Instrucciones para replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
 6. [Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#6-presentación)
 
 # 1. Requerimientos del Sistema
 
-## 1.1 Introducción
+## Introducción
 
 ### Propósito
 
-En este documento se describen las especificaciones de los requerimientos del sistema ConectaITAM,
-la cual es una plataforma de comunicación exclusiva para el Instituto Tecnológico Autónomo de México
-(ITAM). ConectaITAM provee un medio para que los alumnos del ITAM puedan comunicarse entre ellos,
-así como también poder entablar conversaciones con profesores y con el personal
-administrativo. ConectaITAM tiene como objetivo mejorar la experiencia de los estudiantes,
-facilitándoles las herramientas para poder expresarse y desarrollarse de la mejor manera en su vida
-diaria como estudiantes. A continuación, se describe detalladamente la plataforma de ConectaITAM
-1.0.
+En este documento se describen las especificaciones de los requerimientos del sistema ConectaITAM, el cual es un gestor de chats exclusivo para el Instituto Tecnológico Autónomo de México (ITAM).  ConectaITAM es un medio para que los alumnos del ITAM puedan comunicarse entre ellos, así como también poder entablar conversaciones con profesores y del personal administrativo. ConectaITAM tiene como objetivo mejorar la experiencia de los estudiantes facilitándoles los recursos para poder expresarse y desarrollarse de la mejor manera en su vida diaria como estudiante. A continuación, proporcionaremos a describir detalladamente el software de ConectaITAM 1.0.
 
 ### Convenciones del documento
 
-En este documento se hace uso del estándar de la IEEE para SRS (_Software Requirements
-Specifications_), SIO/IEC/IEEE 29148.
+En este documento se hace uso del estándar de la IEEE para SRS del SIO/IEC/IEEE 29148.
 
-En la asignación de prioridades para las funcionalidades del _software_, se maneja un rango de 1 a
-3, en el cual 1 significa que el requerimiento es indispensable y 3 denota que se puede prescindir
-de él.
+Para el manejo de las prioridades en las funcionalidades se manejará el rango 1-3, donde 1 significa que la prioridad es indispensable y 3 es que se puede prescindir de ella.
 
 ### Público objetivo y sugerencicas de lectura
 
-Este documento está dirigido hacia los desarrolladores que están a cargo del mantenimiento del
-sistema ConectaITAM. Se espera que este cuerpo de desarrolladores se conforme por el personal
-administrativo del área de cómputo en el ITAM. Se les sugiere leer todo el documento y
-posteriormente apoyarse en el índice para referenciar rápidamente las secciones relevantes que se
-requieran para el mantenimiento del sistema.
+Este documento está intencionado para los desarrolladores que estan acargo del mantenimiento del sistema ConectaITAM, se espera que este cuerpo sea parte del personal administritativo de cómputo del ITAM. Se les sugiere leer todo el documento la primera vez, y posteriormente apoyarse en el índice para poder tener un lectura rápida de las dudas que se generen en un futuro sobre el sistema.
 
 ### Alcance del producto
 
-ConectaITAM es una plataforma que permite a los alumnos del ITAM tener una aplicación para la
-comunicación rápida y eficaz con todos los estudiantes, profesores y personal administrativo del
-ITAM.
+ConectaITAM es un software que permitirá a los alumnos del ITAM tener una aplicación para la comunicación rápida con todos los estudiantes, profesores y personal administrativo del ITAM.
 
 ConectaITAM tiene como metas:
-- Proporcionar un nuevo medio para la comunicación entre toda la comunidad, el cual va más allá del
-  correo electrónico institucional.
-- Llegar a ser la principal vía de comunicación para los asuntos escolares dentro de la comunidad.
-- Mejorar las relaciones alumno-profesor, alumno-personal administrativo y alumno-alumno.
+- Proporcionar un nuevo medio para la comunicación entre toda la comunidad. Ir más allá del correo electrónico institucional.
+- Llegar a ser el principal conducto de comunicación para los asuntos escolares dentro de la comunidad.
+- Mejorar las relaciones alumno-profesor, alumno-personal administrativo y profesor-personal administrativo.
 - Mejorar la experiencia de vida institucional.
-    + Los alumnos tendrán un medio para obtener fácilmente información relevante a las dudas que
-      puedan tener, tanto de una clase como de los asuntos administrativos.
-    + Los profesores tendrán un medio para difundir mensajes urgentes como avisos de imprevistos o
-      cambios de fechas, así como para ofrecer ayuda personalizada dirigida a los alumnos en sus
-      clases.
-    + Los administrativos podrán ofrecer información general por medio de un _chatbot_, evitando que
-      los alumnos tengan que acudir a las instalaciones para tareas sencillas, lo cual reducirá la
-      carga administrativa.
+    + Los alumnos tendrán un medio para obtener de manera fácil información sobre las dudas que pueda tener tanto de la clase como de los asuntos administrativos.
+    + Los profesores tendrán un medio para poder dar a conocer notificiones urgentes como avisos imprevistos, así como también podrán ofrecer de manera personalizada ayuda a sus clases y alumnos.
+    + Los administrativos podrán reducir su carga de trabajo pues a través de la aplicación del chat podrán ofrecer información general, por medio de un chatbot, y evitar que los alumnos acudan a sus instalaciones para tareas pequeñas y monótonas.
 
-## 1.2 Descripción general
+## Descripción general
 
 ### Perspectiva del producto
 
-ConectaITAM es una plataforma que será añadida al conjunto de aplicaciones ofrecidas por el ITAM.
-La plataforma busca complementar a las aplicaciones ya existentes, tal como Comunidad ITAM y
-Servicios Web.
+ConectaITAM es un sistema que será añadido al conjunto de aplicaciones ofrecidas por el ITAM, así como también busca complementar a las ya existentes, tal como comunidad ITAM y Servicios Web.
 
 A continuación, se muestra un diagrama que ilustra las entidades externas y los actores del sistema.
 
-![](https://highstreetfashions.com/images/image-not-found.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/mapa1.png)
 
 ### Funciones del producto
 
-El sistema ConectaITAM ofrece las siguientes funcionalidades principales:
+El sistema ConectaITAM proveerá de las siguientes funcionalidades principales:
 
-+ **PF-1:** Almacenar y ofrecer en tiempo real las conversaciones de cada usuario del sistema.
-+ **PF-2:** Buscar usuarios a través de su nombre, correo institucional y en la lista de alumnos y
-  profesores de una clase.
-+ **PF-3:** Enviar mensajes directos y archivos multimedia a otros usuarios.
-+ **PF-4:** Crear y gestionar conversaciones grupales privadas, de una clase o de un grupo de
-  alumnos arbitrario.
-+ **PF-5:** Crear y gestionar conversaciones individuales entre alumnos y profesores.
-+ **PF-6:** Gestionar y ofrecer conversaciones del _chatbot_ asistente de servicios escolares y
-  departamentos académicos.
-+ **PF-7:** Crear y gestionar conversaciones con el personal de servicios escolares y departamentos
-  académicos.
++ **PF-1:** Almacenar, desplegar y actualizar los chats de cada usuario del sistema.
++ **PF-2:** Buscar usuarios a través del nombre, correo institucional o por clases inscritas relacionadas.
++ **PF-3:** Capacidad de enviar mensajes directos y archivos multimedia através de los chats de sus contactos o de usuarios buscados.
++ **PF-4:** Creación y gestión tanto de chats grupales privados como predefinidos.
++ **PF-5:** Creación y gestión de las conversaciones mostradas en la bandeja de entrada del usuario.
++ **PF-6:** Capacidad para entablar conversación con el chatbot de ayuda de servicios escolares administrativos.
++ **PF-7:** Capacidad para entablar conversación con una persona de servicios escolares en el caso de ser necesario. 
 
 ### Clases y características del usuario
 
-Los tipos de usuario que utilizarán ConectaITAM son:
+Los usuarios a interactuar con ConectaITAM son:
 
-+ **Administradores:** Grupo encargado de administrar y mantener la plataforma ConectaITAM, incluída
-  la base de datos y los sistemas relacionados a esta. Se espera en un inicio gran interación con la
-  plataforma, dado que son los encargados de la gestión de chats grupales predefinidos relacionados
-  a las clases inscritas del alumno, así como de la gestión del _chatbot_. Se espera que los
-  administradores tengan un alto conocimiento del software.
-+ **Estudiantes:** Serán los usuarios que tendrán mayor contacto con la plataforma; se espera un uso
-  diario. Se considera estudiante a todo aquel que curse alguna materia en el ITAM, sea de
-  licenciatura, ingeniería o algún posgrado. Se esperan las siguientes interacciones: enviar y
-  recibir mensajes, crear y gestionar chats grupales y buscar usuarios.
-+ **Personal administrativo:** Se espera un menor contacto del personal administrativo, pues el
-  objetivo es disminuir su trabajo mediante el _chatbot_. Se considera personal administrativo a
-  todas aquellas personas que pertenecen a Servicios Escolares, así como a los administrativos de
-  los departamentos acádemicos. Se esperan las siguientes interacciones: dar información tanto
-  general como personalizada a los alumnos; brindar apoyo y resolver dudas sobre su vida académica,
-  y; enviar y recibir mensajes de otros usuarios cuando sea necesario.
-+ **Profesores:** Serán los usuarios con la segunda mayor interacción con la plataforma. Se
-  consideran profesores a todos los catedráticos que se encuentren impartiendo alguna clase en la
-  institución. Se esperan las siguientes interacciones: enviar y recibir mensajes con otros
-  usuarios, buscar usuarios y enviar mensajes urgentes.
++ **Administradores:** Grupo encargado de administrar y mantener la aplicación ConectaITAM, tanto de la base de datos como de los sistemas relacionados a este. Se espera en un inicio gran interación con la aplicación pues son los encargados de la creación de los chats grupales predefinidos, relacionados a las clases inscritas del alumno, y de la gestión del chatbot. De los administradores se espera un alto conocimiento del software.
++ **Estudiantes:** Será el usuario que tendrá mayor contacto con la aplicación, se espera un uso diario. Se considera estudiante a todo aquel que curse alguna clase en el ITAM, sea licenciatura, ingeniería o algún posgrado. Se esperan las siguientes interacciones: envíar y recibir mensajes, crear y gestionar chats grupales, buscar usuarios.
++ **Personal administrativo:** Se espera un menor contacto del personal administrativo, pues el objetivo es disminuir su trabajo con el chatbot. Se considera personal administrativo a todas aquellas personas que pertenecen a Servicios Escolares y a administrativos de los departamentos acádemicos. Se esperan las siguientes interacciones: dar información tanto general como personal a los alumnos, brindar apoyo y resolver dudas sobre su vida académica; envíar y recibir mensajes de otros usuarios en el caso necesario. 
++ **Profesores:** Será el segundo usuario con mayor contacto con la aplicación. Se concidera profesor a todos los catedráticos que se encuentren impartiendo alguna clase en la institución. Se esperan las siguientes interacciones: envíar y recibir mensajes con otros usuarios, buscar usuarios.
 
 ### Entorno operativo
 
-ConectaITAM está desarrollado para poder operar en el siguiente entorno: 
-+ **OE-1:** No hay restricción geográfica de dónde funcionará la plataforma.
-+ **OE-2:** Deberá ser accesible mediante los navegadores _web_ principales: Chrome, Firefox, Safari y
-  Opera.
+ConectaITAM está desarrollado para poder convivir con el siguiente entorno: 
++ **OE-1:** No hay restricción geográfica de dónde operará la aplicación.
++ **OE-2:** Deberá operar en los navegadores web principales: Chrome, Firefox, Safari y Opera.
 + **OE-3:** Se deberá proporcionar un servicio continuo y estable.
 
 ### Restricciones de diseño e implementación
 
-ConectaITAM está restringido por las siguientes limitaciones:
-+ **DIC-1:** Se deberán cumplir las políticas de información, seguridad y privacidad del ITAM.
-+ **DIC-2:** Se deberán usar las tecnologías de acuerdo a los estándares del ITAM.
+ConectaITAM estará restringido a las siguientes limitaciones:
++ **DIC-1:** Se deberá cumplir con las políticas de información, seguridad y privacidad del ITAM.
++ **DIC-2:** Se deberá usar las tecnologías de acuerdo a los estándares del ITAM.
 + **DIC-3:** Se limitará el tamaño de los archivos multimedia compartidos mediante el chat.
-+ **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat.
-+ **DIC-5:** No habrá soporte para llamadas ni videollamadas.
++ **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat. Solo ciertas extenciones serán válidas.
++ **DIC-5:** No se permitirán llamadas ni videollamadas.
 
 ### Documentación del usuario
 
 ConectaITAM proveerá dos tipos de apoyo para sus usuarios.
-+ Dentro de la plataforma habrá un botón de ayuda, el cual incluirá un tutorial interactivo para los
-  usuarios.
-+ Fuera de la plataforma, el ITAM proveerá un manual de usuario en su portal principal.
-    - Este manual de usuario será envíado también a través del correo institucional cuando la
-      aplicación entre en uso.
++ Dentro de la aplicación existirá un botón de ayuda, el cual incluirá un tutorial interáctivo para los usuarios.
++ Fuera de la aplicación el ITAM proveerá un manual de usuario en su portal principal.
+    - Este manual de usuario será envíado también a través del correo institucional cuando la aplicación esté en uso.
 
 ### Suposiciones y dependencias
 
-ConectaITAM cuenta con las siguientes dependencias:
-+ **AS-1:** Las cuentas de usuarios de la plataforma están ligadas a la autenticación del
-  ITAM. Ninguna persona que no posea un correo institucional verificado podrá tener acceso a la
-  aplicación.
-+ **AS-2:** Queda sujeta al funcionamiento de los servidores y de la base de datos del ITAM.
-+ **AS-3:** Asume que la plataforma podrá funcionar adecuadamente con aproximadamente 6,000
-  usuarios.
-+ **AS-4:** Presume que los usuarios tendrán actualizados sus sistemas operativos y navegadores web.
+ConectaITAM contará con las siguientes dependencias:
++ **AS-1:** Las cuentas de usuarios de la aplicación están ligadas a la autentificación del ITAM. Ninguna persona que no posea un correo institucional verificado podrá tener acceso a la aplicación.
++ **AS-2:** Se queda sujeto al funcionamiento de los servidores y de la base de datos del ITAM.
++ **AS-3:** Se asume que la aplicación podrá funcionar adecuadamente con aproximadamente 6,000 usuarios.
++ **AS-4:** Se presume que los usuarios tendrán actualizado sus sistemas operativos y navegadores web.
 
-## 1.3 Requerimientos de interfaz externa
+## Requerimientos de interfaz externa - ¡¡FALTA!!
 
 ### Interfaces de usuario
 
@@ -216,7 +148,7 @@ ConectaITAM cuenta con las siguientes dependencias:
 
 ### Interfaces de comunicaciones
 
-## 1.4 Funcionalidades del sistema
+## Funcionalidades del sistema - ¡¡FALTA!!
 
 ### Iniciar sesión 
 
@@ -226,7 +158,7 @@ ConectaITAM cuenta con las siguientes dependencias:
 
 ### ...
 
-## 1.5 Otros requerimientos no funcionales
+## Otros requerimientos no funcionales
 
 ### Requerimientos de rendimiento
 
@@ -259,48 +191,123 @@ ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la ins
 
 ### Atributos de calidad de software
 
++ **SQ-1:** El sistema será fácil de usar para todos los usuarios, se aplicarán periodicamente un sondeo sobre usuarios seleccionados para evaluar nuestra calidad de diseño.
++ **SQ-2:** El sistema estará siempre disponible, teniendo principal cuidado en las horas pico. Por ello se monitorizarán constantemente las transacciones de datos y los incidentes que podrían llegar a suceder.
++ **SQ-3:** El sistema contará con constantes copias de seguridad de las versiones más estables para que en el caso de fallas se pueda mantener el servicio a nuestros usuarios.
+
 ### Reglas de negocio
 
++ **BU-1:** Solo los profesores y los administradores del sistema serán capaces de modificar los chats grupales predefinidos.
++ **BU-2:** Solo el administrador del sistema será capaz de bloquear permanentemente la comunicación entre dos usuarios.
++ **BU-3:** Solo los administradores de servicios escolares podrán gestionar la información del chatbot.
++ **BU-4:** Los estudiantes serán capaces de bloquear, como máximo una semana, la comunicación con otro usuario.
 
 # 2. Plan de Calidad
 
-## 2.1 Identificador del plan de prueba
+## Identificador del plan de prueba
 
-## 2.2 Referencias
+ComunicaITAM_1.0_Testing_Y4M3A8URR1
 
-## 2.3 Introducción
+## Referencias
 
-## 2.4 Elementos de prueba
+Los documentos que respaldan este plan de calidad son:
 
-## 2.5 Problemas de riesgo del software
++ [Plan de proyecto y requerimientos del sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
 
-## 2.6 Funcionalidades a probar
+## Introducción
 
-## 2.7 Funcionalidades que no deben probarse
+Este plan de calidad para el sistema ConectaITAM se llevará acabo en los más populares navegadores web, tal como: Chrome, Firefox, Safari y Opera. En este documento se tendrá como objetivo:
 
-## 2.8 Enfoque
++ Definir las herramientas para utiliar durante todo el proceso de pruebas.
++ Definir cuales son los parámetros para realizar dichas pruebas.
++ Identificar los elementos en los que se realiarán las pruebas y establecer lo que se espera de ellas.
 
-## 2.9 Críterios de aprobación/falla
+Todo lo anterior para poder dar la mayor seguridad y confiabilidad a nuestro sistema de mensajería ConectaITAM.
 
-## 2.10 Criterios de suspensión y requisitos de reanudación
+## Elementos de prueba
 
-## 2.11 Entregables de prueba
+Los elementos a probar del sistema ComunicaITAM son:
 
-## 2.12 Tareas de pruebas restantes
++ Inicio de sesión (con verificación)
++ Enviar y recibir mensajes entre usuarios.
++ Creación de chats grupales predefinidos.
++ Creación de chats grupales por los estudiantes.
++ Iniciar una nueva conversación.
++ Busqueda de usuario por nombre, correo instituciones o clase conjunta.
++ Gestión de conversaciones y de grupos privados.
++ Comunicación con el chatbot de servicios escolares.
++ Reporte de mensajes o de usuarios inapropiados.
++ Bloqueo de usuarios.
 
-## 2.13 Necesidades ambientales
+Los elementos deben probarse en Windows y MacOs, así como en los navegadores web más populares.
 
-## 2.14 Necesidades del personal y capacitación
+## Problemas de riesgo del software
 
-## 2.15 Responsabilidades
+Las áreas críticas del sistema ComunicaITAM son:
 
-## 2.16 Calendario
++ ...
++ 
 
-## 2.17 Planificación de riesgos y contingencias
+## Funcionalidades a probar
 
-## 2.18 Aprobación
++ Como estudiante/ profesor quiero ingresar al sistema ConectaITAM.
++ Como estudiante/profesor quiero navegar entre mis conversaciones.
++ Como estudiante/profesor quiero crear una nueva conversación.
++ Como estudiante/profesor quiero buscar a un usuario.
++ Como estudiante quiero crear un subgrupo de una materia.
++ Como estudiante/profesor quiero gestionar mis conversaciones.
++ Como estudiante/profesor quiero reportar a un usuario.
++ Como estudiante/profesor quiero envía un mensaje a una conversación ya creada.
++ Como estudiante quiero conversar con el chatbot de servicios escolares.
++ Como estudiante/profesor quiero subir un archivo multimedia.
 
-## 2.19 Glosario
+## Funcionalidades que no deben probarse
+
+Las siguientes funciones no serán sometidas a pruebas.
+
++ Notificación de nuevos mensajes.
++ Creación de chat grupales predefinidos.
++ Creación de agendar una cita por medio del chatbot.
+
+## Enfoque (Estrategia) - ¡¡FALTA!!
+
+
+
+## Críterios de aprobación/falla
+
+El sistema ComunicaITAM seguirá los siguientes críterios de aprobación y falla:
+
++ Todas las funcionalidades del sistema descritos en este documento deben de funcionar de la manera en la que se tiene esperado y como se describe en el documento de requisitos.
++ No se aceptarán bajo ninguna circunstancia errores críticos ni defectos que se lleguen a encontrar durante el proceso de pruebas.
++ El estudiante debe de ser capaz de envía y recibir mensajes, crear y administrar sus conversaciones privadas, buscar usuarios, subir archivos multimedia y conversar con el chatbot. Todas las acciones se deben de poder acompletar sin retraso ni errores.
++ El profesor debe ser capaz de envía y recibir mensajes, crear y administrar sus conversaciones privadas, grationar los chat grupales predefinidos, buscar usuarios, subir archivos multimedia y conversar con el chatbot. Todas las acciones se deben de poder acompletar sin retraso ni errores.
+
+## Criterios de suspensión y requisitos de reanudación
+
+Las pruebas para el sistema ComunicaITAM deberán detenerse inmediatemente si:
+
++ Se experimenta error en inicio de sesión.
++ Se experimenta error en alguna acción básica como: creación, lectura, actualización y eliminación de solicitudes a la base de datos.
++ Existe un gran porcentaje de ciclos de prueba fallidos, más del 50% del total de los casos.
++ Se incrementa notablemente el número de defectos encontrados durante las pruebas, más de 10 defectos.
+
+## Entregables de prueba
+
+## Tareas de pruebas restantes
+
+## Necesidades ambientales
+
+## Necesidades del personal y capacitación
+
+## Responsabilidades
+
+## Calendario
+
+## Planificación de riesgos y contingencias
+
+## Aprobación
+
+## Glosario
 
 # 3. Arquitectura
 
