@@ -16,48 +16,48 @@
 
 1. [Requrimientos del
    Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
-    1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#11-introducción)
+    1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción)
     2. [Descripción
-       general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#12-descripción-general)
+       general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#descripción-general)
     3. [Requerimientos de interfaz
-       externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#13-requerimientos-de-interfaz-externa)
+       externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#requerimientos-de-interfaz-externa)
     4. [Funcionalidades del
-       sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#14-funcionalidades-del-sistema)
+       sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-del-sistema)
     5. [Otros requerimientos no
-       funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#15-otros-requerimientos-no-funcionales)
+       funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#otros-requerimientos-no-funcionales)
 2. [Plan de
    Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
     1. [Identificador del plan de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#21-identificador-del-plan-de-prueba)
-    2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#22-referencias)
-    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#23-introducción)
+       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#identificador-del-plan-de-prueba)
+    2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#referencias)
+    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#introducción-1)
     4. [Elementos de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#24-elementos-de-prueba)
+       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#elementos-de-prueba)
     5. [Problemas de riesgo del
-       software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#25-problemas-de-riesgo-del-software)
+       software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#problemas-de-riesgo-del-software)
     6. [Funcionalidades a
-       probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#26-funcionalidades-a-probar)
+       probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-a-probar)
     7. [Funcionalidades que no deben
-       probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#27-funcionalidades-que-no-deben-probarse)
-    8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#28-enfoque)
-    9. [Criterios de
-       aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#29-criterios-de-aprobación/falla)
+       probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#funcionalidades-que-no-deben-probarse)
+    8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#enfoque)
+    9. [Críterios de
+       aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-aprobación/falla)
     10. [Criterios de suspensión y requisitos de
-        reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#210-criterios-de-suspensión-y-requisitos-de-reanudación)
+        reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#críterios-de-suspensión-y-requisitos-de-reanudación)
     11. [Entregables de
-        prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#211-entregables-de-prueba)
+        prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#entregables-de-prueba)
     12. [Tareas de pruebas
-        restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#212-tareas-de-pruebas-restantes)
+        restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#tareas-de-pruebas-restantes)
     13. [Necesidades
-        ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#213-necesidades-ambientales)
+        ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-ambientales)
     14. [Necesidades del personal y
-        capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#214-necesidades-del-personal-y-capacitación)
-    15. [Responsabilidades](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#215-responsabilidades)
-    16. [Calendario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#216-calendario)
+        capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#necesidades-del-personal-y-capacitación)
+    15. [Responsabilidades](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#responsabilidades)
+    16. [Calendario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#calendario)
     17. [Planificación de riesgos y
-        contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#217-planificación-de-riesgos-y-contingencias)
-    18. [Aprobación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#218-aprobación)
-    19. [Glosario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#219-glosario)
+        contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#planificación-de-riesgos-y-contingencias)
+    18. [Aprobación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#aprobación)
+    19. [Glosario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#glosario)
 3. [Arquitectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#3-arquitectura)
 4. [Metodología](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#4-metodología)
 5. [Instrucciones para
@@ -245,18 +245,21 @@ Se le asignó una prioridad media (3) a esta funcionalidad pues es necesaria par
 grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener
 ningún otro medio para comunicarse.
 #### Estímulos / Respuestas
+Estímulo: El usuario ingresará un nombre para una búsqueda.
 
+Respuesta: El sistema desplegará la lista de resultados.
 #### Requerimientos funcionales
-+ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común los resultados de la búsqueda. !!!
-+ **REQ-2**: 
++ **REQ-1**: El sistema debe desplegar los resultados de la búsqueda en orden descendiente por la cantidad de grupos en común.
++ **REQ-2**: Debe existir un sistema de búsqueda siempre accesible al usuario.
 
 ### Comunicarse con un profesor
 #### Descripción
 Consideramos que esta es una funcionalidad muy importante de nuestro sistema (2), puesto que, al ser una
 aplicación universitaria, la comunicación entre alumnos y profesores es vital.
 #### Estímulos / Respuestas
-De los grupos a los que está inscrito, seleccionará el alumno un profesor para mandarle un mensaje.
-ConectaITAM enviará el mensaje junto con una notificación al profesor seleccionado.
+Estímulo: El alumno seleccionará un profesor para mandarle un mensaje.
+
+Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 #### Requerimientos funcionales
 + **REQ-1**: El alumno debe estar inscrito en al menos una materia del profesor con el que quiere comunicarse.
 + **REQ-2**: 
@@ -266,13 +269,15 @@ ConectaITAM enviará el mensaje junto con una notificación al profesor seleccio
 El usuario puede ver un malfuncionamiento de la aplicación y querrá reportarlo a nosotros para que
 pueda ser arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la
 aplicación, decidimos darle prioridad alta (2).
+
 #### Estímulos / Respuestas
-El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de 
+Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de 
 reporte. 
-El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
+
+Respuesta: El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
 #### Requerimientos funcionales
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
-+ **REQ-2**: El sistema debe tener una base de datos para los malfuncionamientos.
++ **REQ-2**: El sistema debe tener una base de datos para los reportes de malfuncionamientos.
 
 ## 1.5 Otros requerimientos no funcionales
 
@@ -469,23 +474,25 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 ## 2.19 Glosario
 
 # 3. Arquitectura
+ConectaITAM utilizará una arquitectura por eventos, puesto que creemos que las ventajas 
+de una arquitectura de este tipo tienen un mayor peso que las desventajas 
+para este proyecto en específico. Asimismo, creemos que el uso que le darán los usuarios 
+a nuestra aplicación puede ser pensado como eventos, puesto que estos no están en la 
+necesidad de entablar una comunicación con otros alumos o profesores, y el sistema sólo 
+responderá a cuando los usuarios sí tengan esta necesidad.
 
-ConectaITAM utiliza una arquitectura por eventos. Las características de la arquitectura para esta
-plataforma ofrecen ventajas sobre las demás arquitecturas, con las menores desventajas. Asimismo, el
-uso que le darán los usuarios a la plataforma será en forma de eventos, puesto que dichos usuarios
-no entablan una comunicación constante con otros usuarios, sino cuando lo demandan, y el sistema
-deberá responder en dicho caso.
 
 # 4. Metodología
+Para cumplir con esta meta, ConectaITAM seguirá una metodología incremental, puesto que creemos 
+que este proyecto está suficientemente bien definido para seguir una metodología de cascada, 
+pero la metodología incremental permite la atomización del proyecto para un desarrollo más fluido. 
+Es este sentido también creemos que es importante emprender las tareas con más alta prioridad 
+sin dejar del lado el proyecto como un todo.
 
-ConectaITAM sigue una metodología incremental. La plataforma está suficientemente bien definida para
-seguir una metodología de cascada, pero la metodología incremental permite la atomización del
-proyecto para un desarrollo más fluido.  Además, es importante emprender las tareas con más alta
-prioridad sin dejar a un lado el proyecto en su totalidad.
-
-Otra ventaja de la metodología es que permite presentar un producto inicial a un bajo costo y en un
-periodo corto de tiempo. Después de la presentación inicial del producto, los defectos o *bugs* son
-fáciles de detectar, dado que los cambios desde el último incremento son relativamente pequeños.
+Otra ventaja que consideramos al seleccionar esta metodología fue la posibilidad de presentar un 
+producto inicial a un bajo costo y en un periodo corto de tiempo. Después de la presentación 
+inicial del producto, los defectos o *bugs* son fáciles de detectar puesto que los cambios 
+desde el último incremento han sido relativamente pequeños.
 
 # 5. Instrucciones para replicar
 
