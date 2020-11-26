@@ -219,60 +219,76 @@ ConectaITAM cuenta con las siguientes dependencias:
 ## 1.4 Funcionalidades del sistema
 
 ### Iniciar sesión 
+
 #### Descripción
-Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el usuario pueda 
-hacer uso de las demás funcionalidades. Como sólo alumnos con cuenta de correo válida del ITAM podrán
-crear una cuenta de ConectaITAM, habrá una verificación de la misma.
+Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el
+usuario pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con
+una dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de
+la misma.
+
 #### Estímulos / Respuestas
+
 #### Requerimientos funcionales
-+ **REQ-1**: El sistema deberá contar con un sistema para la verificación de correo.
++ **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
 + **REQ-2**: 
 
-### Creación de chat grupales
+### Creación de conversaciones grupales
+
 #### Descripción
-Creemos que esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen
-un gran número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
-grupales entre otros. Por esta razón se le dio una prioridad baja (4).
+Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
+número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
+grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (3).
+
 #### Estímulos / Respuestas
 
 #### Requerimientos funcionales
-+ **REQ-1**: Los alumnos que serán invitados al chat grupal tendrán que existir en ConectaITAM.
-+ **REQ-2**: Deberá existir una categoría de Chat grupal en el sistema.
++ **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
+  ConectaITAM.
++ **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
 
 ### Buscar contacto
+
 #### Descripción
-Se le asignó una prioridad media (3) a esta funcionalidad pues es necesaria para la creación de los
-grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener
-ningún otro medio para comunicarse.
+Se le asignó una prioridad media (2) a esta funcionalidad, pues es necesaria para la creación de los
+grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener ningún
+otro medio para comunicarse.
+
 #### Estímulos / Respuestas
 
 #### Requerimientos funcionales
-+ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común los resultados de la búsqueda. !!!
++ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
+  la búsqueda.
 + **REQ-2**: 
 
 ### Comunicarse con un profesor
+
 #### Descripción
-Consideramos que esta es una funcionalidad muy importante de nuestro sistema (2), puesto que, al ser una
-aplicación universitaria, la comunicación entre alumnos y profesores es vital.
+Esta es una funcionalidad muy importante de la plataforma (1) puesto que, al ser una aplicación
+universitaria, la comunicación entre alumnos y profesores es vital.
+
 #### Estímulos / Respuestas
-De los grupos a los que está inscrito, seleccionará el alumno un profesor para mandarle un mensaje.
-ConectaITAM enviará el mensaje junto con una notificación al profesor seleccionado.
+De los grupos a los que está inscrito, el alumno seleccionará a un profesor para mandarle un
+mensaje.  ConectaITAM enviará el mensaje junto con una notificación al profesor seleccionado.
+
 #### Requerimientos funcionales
-+ **REQ-1**: El alumno debe estar inscrito en al menos una materia del profesor con el que quiere comunicarse.
++ **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
+  quiere comunicarse.
 + **REQ-2**: 
 
-### Reportar un malfuncionamiento de la aplicación
+### Reportar un mal funcionamiento de la aplicación
+
 #### Descripción
-El usuario puede ver un malfuncionamiento de la aplicación y querrá reportarlo a nosotros para que
-pueda ser arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la
-aplicación, decidimos darle prioridad alta (2).
+El usuario puede ver un mal funcionamiento de la aplicación y querrá reportarlo para que pueda ser
+arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la aplicación, se
+asigna prioridad media (2).
+
 #### Estímulos / Respuestas
-El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de 
-reporte. 
-El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
+El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
+reporte. El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
+
 #### Requerimientos funcionales
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
-+ **REQ-2**: El sistema debe tener una base de datos para los malfuncionamientos.
++ **REQ-2**: El sistema debe tener una base de datos para los mal funcionamientos.
 
 ## 1.5 Otros requerimientos no funcionales
 
