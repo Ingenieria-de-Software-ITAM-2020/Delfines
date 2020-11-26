@@ -358,7 +358,7 @@ Las siguientes funciones no serán sometidas a pruebas.
 
 ## 2.8 Enfoque (estrategia)
 
-## 2.9 Críterios de aprobación/falla
+## 2.9 Criterios de aprobación/falla
 
 El sistema ComunicaITAM seguirá los siguientes críterios de aprobación y falla:
 
