@@ -230,7 +230,7 @@ la misma.
 
 #### Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
-+ **REQ-2**: 
++ **REQ-2**: Debe existir un sistema de búsqueda siempre accesible al usuario.
 
 ### Creación de conversaciones grupales
 
@@ -267,8 +267,9 @@ Esta es una funcionalidad muy importante de la plataforma (1) puesto que, al ser
 universitaria, la comunicación entre alumnos y profesores es vital.
 
 #### Estímulos / Respuestas
-De los grupos a los que está inscrito, el alumno seleccionará a un profesor para mandarle un
-mensaje.  ConectaITAM enviará el mensaje junto con una notificación al profesor seleccionado.
++ Estímulo: El alumno seleccionará un profesor para mandarle un mensaje.
+
++ Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 
 #### Requerimientos funcionales
 + **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
@@ -283,12 +284,14 @@ arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento
 asigna prioridad media (2).
 
 #### Estímulos / Respuestas
-El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
-reporte. El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
++ Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
+reporte. 
+
++ Respuesta: El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
 
 #### Requerimientos funcionales
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
-+ **REQ-2**: El sistema debe tener una base de datos para los mal funcionamientos.
++ **REQ-2**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
 
 ## 1.5 Otros requerimientos no funcionales
 
