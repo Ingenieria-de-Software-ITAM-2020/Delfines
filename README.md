@@ -72,7 +72,7 @@
 
 En este documento se describen las especificaciones de los requerimientos del sistema ConectaITAM,
 la cual es una plataforma de comunicación exclusiva para el Instituto Tecnológico Autónomo de México
-(ITAM).  ConectaITAM provee un medio para que los alumnos del ITAM puedan comunicarse entre ellos,
+(ITAM). ConectaITAM provee un medio para que los alumnos del ITAM puedan comunicarse entre ellos,
 así como también poder entablar conversaciones con profesores y con el personal
 administrativo. ConectaITAM tiene como objetivo mejorar la experiencia de los estudiantes,
 facilitándoles las herramientas para poder expresarse y desarrollarse de la mejor manera en su vida
@@ -90,20 +90,32 @@ de él.
 
 ### Público objetivo y sugerencicas de lectura
 
-Este documento está intencionado para los desarrolladores que estan acargo del mantenimiento del sistema ConectaITAM, se espera que este cuerpo sea parte del personal administritativo de cómputo del ITAM. Se les sugiere leer todo el documento la primera vez, y posteriormente apoyarse en el índice para poder tener un lectura rápida de las dudas que se generen en un futuro sobre el sistema.
+Este documento está dirigido hacia los desarrolladores que están a cargo del mantenimiento del
+sistema ConectaITAM. Se espera que este cuerpo de desarrolladores se conforme por el personal
+administrativo del área de cómputo en el ITAM. Se les sugiere leer todo el documento y
+posteriormente apoyarse en el índice para referenciar rápidamente las secciones relevantes que se
+requieran para el mantenimiento del sistema.
 
 ### Alcance del producto
 
-ConectaITAM es un software que permitirá a los alumnos del ITAM tener una aplicación para la comunicación rápida con todos los estudiantes, profesores y personal administrativo del ITAM.
+ConectaITAM es una plataforma que permite a los alumnos del ITAM tener una aplicación para la
+comunicación rápida y eficaz con todos los estudiantes, profesores y personal administrativo del
+ITAM.
 
 ConectaITAM tiene como metas:
-- Proporcionar un nuevo medio para la comunicación entre toda la comunidad. Ir más allá del correo electrónico institucional.
-- Llegar a ser el principal conducto de comunicación para los asuntos escolares dentro de la comunidad.
-- Mejorar las relaciones alumno-profesor, alumno-personal administrativo y profesor-personal administrativo.
+- Proporcionar un nuevo medio para la comunicación entre toda la comunidad, el cual va más allá del
+  correo electrónico institucional.
+- Llegar a ser la principal vía de comunicación para los asuntos escolares dentro de la comunidad.
+- Mejorar las relaciones alumno-profesor, alumno-personal administrativo y alumno-alumno.
 - Mejorar la experiencia de vida institucional.
-    + Los alumnos tendrán un medio para obtener de manera fácil información sobre las dudas que pueda tener tanto de la clase como de los asuntos administrativos.
-    + Los profesores tendrán un medio para poder dar a conocer notificiones urgentes como avisos imprevistos, así como también podrán ofrecer de manera personalizada ayuda a sus clases y alumnos.
-    + Los administrativos podrán reducir su carga de trabajo pues a través de la aplicación del chat podrán ofrecer información general, por medio de un chatbot, y evitar que los alumnos acudan a sus instalaciones para tareas pequeñas y monótonas.
+    + Los alumnos tendrán un medio para obtener fácilmente información relevante a las dudas que
+      puedan tener, tanto de una clase como de los asuntos administrativos.
+    + Los profesores tendrán un medio para difundir mensajes urgentes como avisos de imprevistos o
+      cambios de fechas, así como para ofrecer ayuda personalizada dirigida a los alumnos en sus
+      clases.
+    + Los administrativos podrán ofrecer información general por medio de un chatbot, así evitando
+      que los alumnos tengan que acudir a las instalaciones para tareas sencillas, lo cual reducirá
+      la carga administrativa.
 
 ## 1.2 Descripción general
 
