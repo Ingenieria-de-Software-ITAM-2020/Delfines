@@ -469,25 +469,23 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 ## 2.19 Glosario
 
 # 3. Arquitectura
-ConectaITAM utilizará una arquitectura por eventos, puesto que creemos que las ventajas 
-de una arquitectura de este tipo tienen un mayor peso que las desventajas 
-para este proyecto en específico. Asimismo, creemos que el uso que le darán los usuarios 
-a nuestra aplicación puede ser pensado como eventos, puesto que estos no están en la 
-necesidad de entablar una comunicación con otros alumos o profesores, y el sistema sólo 
-responderá a cuando los usuarios sí tengan esta necesidad.
 
+ConectaITAM utiliza una arquitectura por eventos. Las características de la arquitectura para esta
+plataforma ofrecen ventajas sobre las demás arquitecturas, con las menores desventajas. Asimismo, el
+uso que le darán los usuarios a la plataforma será en forma de eventos, puesto que dichos usuarios
+no entablan una comunicación constante con otros usuarios, sino cuando lo demandan, y el sistema
+deberá responder en dicho caso.
 
 # 4. Metodología
-Para cumplir con esta meta, ConectaITAM seguirá una metodología incremental, puesto que creemos 
-que este proyecto está suficientemente bien definido para seguir una metodología de cascada, 
-pero la metodología incremental permite la atomización del proyecto para un desarrollo más fluido. 
-Es este sentido también creemos que es importante emprender las tareas con más alta prioridad 
-sin dejar del lado el proyecto como un todo.
 
-Otra ventaja que consideramos al seleccionar esta metodología fue la posibilidad de presentar un 
-producto inicial a un bajo costo y en un periodo corto de tiempo. Después de la presentación 
-inicial del producto, los defectos o *bugs* son fáciles de detectar puesto que los cambios 
-desde el último incremento han sido relativamente pequeños.
+ConectaITAM sigue una metodología incremental. La plataforma está suficientemente bien definida para
+seguir una metodología de cascada, pero la metodología incremental permite la atomización del
+proyecto para un desarrollo más fluido.  Además, es importante emprender las tareas con más alta
+prioridad sin dejar a un lado el proyecto en su totalidad.
+
+Otra ventaja de la metodología es que permite presentar un producto inicial a un bajo costo y en un
+periodo corto de tiempo. Después de la presentación inicial del producto, los defectos o *bugs* son
+fáciles de detectar, dado que los cambios desde el último incremento son relativamente pequeños.
 
 # 5. Instrucciones para replicar
 
