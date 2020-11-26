@@ -219,12 +219,60 @@ ConectaITAM cuenta con las siguientes dependencias:
 ## 1.4 Funcionalidades del sistema
 
 ### Iniciar sesión 
-
-### Buscar contacto
+#### Descripción
+Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el usuario pueda 
+hacer uso de las demás funcionalidades. Como sólo alumnos con cuenta de correo válida del ITAM podrán
+crear una cuenta de ConectaITAM, habrá una verificación de la misma.
+#### Estímulos / Respuestas
+#### Requerimientos funcionales
++ **REQ-1**: El sistema deberá contar con un sistema para la verificación de correo.
++ **REQ-2**: 
 
 ### Creación de chat grupales
+#### Descripción
+Creemos que esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen
+un gran número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
+grupales entre otros. Por esta razón se le dio una prioridad baja (4).
+#### Estímulos / Respuestas
 
-### ...
+#### Requerimientos funcionales
++ **REQ-1**: Los alumnos que serán invitados al chat grupal tendrán que existir en ConectaITAM.
++ **REQ-2**: Deberá existir una categoría de Chat grupal en el sistema.
+
+### Buscar contacto
+#### Descripción
+Se le asignó una prioridad media (3) a esta funcionalidad pues es necesaria para la creación de los
+grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener
+ningún otro medio para comunicarse.
+#### Estímulos / Respuestas
+
+#### Requerimientos funcionales
++ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común los resultados de la búsqueda. !!!
++ **REQ-2**: 
+
+### Comunicarse con un profesor
+#### Descripción
+Consideramos que esta es una funcionalidad muy importante de nuestro sistema (2), puesto que, al ser una
+aplicación universitaria, la comunicación entre alumnos y profesores es vital.
+#### Estímulos / Respuestas
+De los grupos a los que está inscrito, seleccionará el alumno un profesor para mandarle un mensaje.
+ConectaITAM enviará el mensaje junto con una notificación al profesor seleccionado.
+#### Requerimientos funcionales
++ **REQ-1**: El alumno debe estar inscrito en al menos una materia del profesor con el que quiere comunicarse.
++ **REQ-2**: 
+
+### Reportar un malfuncionamiento de la aplicación
+#### Descripción
+El usuario puede ver un malfuncionamiento de la aplicación y querrá reportarlo a nosotros para que
+pueda ser arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la
+aplicación, decidimos darle prioridad alta (2).
+#### Estímulos / Respuestas
+El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de 
+reporte. 
+El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
+#### Requerimientos funcionales
++ **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
++ **REQ-2**: El sistema debe tener una base de datos para los malfuncionamientos.
 
 ## 1.5 Otros requerimientos no funcionales
 
@@ -421,13 +469,25 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 ## 2.19 Glosario
 
 # 3. Arquitectura
-ConectaITAM utilizará una arquitectura por eventos, puesto que creemos que las ventajas de una arquitectura de este tipo tienen un mayor peso que las desventajas para este proyecto en específico. Asimismo, creemos que el uso que le darán los usuarios a nuestra aplicación puede ser pensado como eventos, puesto que estos no están en la necesidad de entablar una comunicación con otros alumos o profesores, y el sistema sólo responderá a cuando los usuarios sí tengan esta necesidad.
-
+ConectaITAM utilizará una arquitectura por eventos, puesto que creemos que las ventajas 
+de una arquitectura de este tipo tienen un mayor peso que las desventajas 
+para este proyecto en específico. Asimismo, creemos que el uso que le darán los usuarios 
+a nuestra aplicación puede ser pensado como eventos, puesto que estos no están en la 
+necesidad de entablar una comunicación con otros alumos o profesores, y el sistema sólo 
+responderá a cuando los usuarios sí tengan esta necesidad.
 
 
 # 4. Metodología
-Para cumplir con esta meta, ConectaITAM seguirá una metodología incremental, puesto que creemos que este proyecto está suficientemente bien definido para seguir una metodología de cascada, pero la metodología incremental permite la atomización del proyecto para un desarrollo más fluido. Asimismo, creemos que es importante emprender las tareas con más alta prioridad sin dejar del lado el proyecto como un todo.
-Otra ventaja que consideramos al seleccionar esta metodología fue la posibilidad de presentar un producto inicial a un bajo costo y en un periodo corto de tiempo. Después de la presentación inicial del producto, los defectos o *bugs* son fáciles de detectar puesto que los cambios desde el último incremento han sido relativamente pequeños.
+Para cumplir con esta meta, ConectaITAM seguirá una metodología incremental, puesto que creemos 
+que este proyecto está suficientemente bien definido para seguir una metodología de cascada, 
+pero la metodología incremental permite la atomización del proyecto para un desarrollo más fluido. 
+Es este sentido también creemos que es importante emprender las tareas con más alta prioridad 
+sin dejar del lado el proyecto como un todo.
+
+Otra ventaja que consideramos al seleccionar esta metodología fue la posibilidad de presentar un 
+producto inicial a un bajo costo y en un periodo corto de tiempo. Después de la presentación 
+inicial del producto, los defectos o *bugs* son fáciles de detectar puesto que los cambios 
+desde el último incremento han sido relativamente pequeños.
 
 # 5. Instrucciones para replicar
 
