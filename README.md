@@ -113,15 +113,17 @@ ConectaITAM tiene como metas:
     + Los profesores tendrán un medio para difundir mensajes urgentes como avisos de imprevistos o
       cambios de fechas, así como para ofrecer ayuda personalizada dirigida a los alumnos en sus
       clases.
-    + Los administrativos podrán ofrecer información general por medio de un chatbot, así evitando
-      que los alumnos tengan que acudir a las instalaciones para tareas sencillas, lo cual reducirá
-      la carga administrativa.
+    + Los administrativos podrán ofrecer información general por medio de un _chatbot_, evitando que
+      los alumnos tengan que acudir a las instalaciones para tareas sencillas, lo cual reducirá la
+      carga administrativa.
 
 ## 1.2 Descripción general
 
 ### Perspectiva del producto
 
-ConectaITAM es un sistema que será añadido al conjunto de aplicaciones ofrecidas por el ITAM, así como también busca complementar a las ya existentes, tal como comunidad ITAM y Servicios Web.
+ConectaITAM es una plataforma que será añadida al conjunto de aplicaciones ofrecidas por el ITAM.
+La plataforma busca complementar a las aplicaciones ya existentes, tal como Comunidad ITAM y
+Servicios Web.
 
 A continuación, se muestra un diagrama que ilustra las entidades externas y los actores del sistema.
 
@@ -129,55 +131,80 @@ A continuación, se muestra un diagrama que ilustra las entidades externas y los
 
 ### Funciones del producto
 
-El sistema ConectaITAM proveerá de las siguientes funcionalidades principales:
+El sistema ConectaITAM ofrece las siguientes funcionalidades principales:
 
-+ **PF-1:** Almacenar, desplegar y actualizar los chats de cada usuario del sistema.
-+ **PF-2:** Buscar usuarios a través del nombre, correo institucional o por clases inscritas relacionadas.
-+ **PF-3:** Capacidad de enviar mensajes directos y archivos multimedia através de los chats de sus contactos o de usuarios buscados.
-+ **PF-4:** Creación y gestión tanto de chats grupales privados como predefinidos.
-+ **PF-5:** Creación y gestión de las conversaciones mostradas en la bandeja de entrada del usuario.
-+ **PF-6:** Capacidad para entablar conversación con el chatbot de ayuda de servicios escolares administrativos.
-+ **PF-7:** Capacidad para entablar conversación con una persona de servicios escolares en el caso de ser necesario. 
++ **PF-1:** Almacenar y ofrecer en tiempo real las conversaciones de cada usuario del sistema.
++ **PF-2:** Buscar usuarios a través de su nombre, correo institucional y en la lista de alumnos y
+  profesores de una clase.
++ **PF-3:** Enviar mensajes directos y archivos multimedia a otros usuarios.
++ **PF-4:** Crear y gestionar conversaciones grupales privadas, de una clase o de un grupo de
+  alumnos arbitrario.
++ **PF-5:** Crear y gestionar conversaciones individuales entre alumnos y profesores.
++ **PF-6:** Gestionar y ofrecer conversaciones del _chatbot_ asistente de servicios escolares y
+  departamentos académicos.
++ **PF-7:** Crear y gestionar conversaciones con el personal de servicios escolares y departamentos
+  académicos.
 
 ### Clases y características del usuario
 
-Los usuarios a interactuar con ConectaITAM son:
+Los tipos de usuario que utilizarán ConectaITAM son:
 
-+ **Administradores:** Grupo encargado de administrar y mantener la aplicación ConectaITAM, tanto de la base de datos como de los sistemas relacionados a este. Se espera en un inicio gran interación con la aplicación pues son los encargados de la creación de los chats grupales predefinidos, relacionados a las clases inscritas del alumno, y de la gestión del chatbot. De los administradores se espera un alto conocimiento del software.
-+ **Estudiantes:** Será el usuario que tendrá mayor contacto con la aplicación, se espera un uso diario. Se considera estudiante a todo aquel que curse alguna clase en el ITAM, sea licenciatura, ingeniería o algún posgrado. Se esperan las siguientes interacciones: envíar y recibir mensajes, crear y gestionar chats grupales, buscar usuarios.
-+ **Personal administrativo:** Se espera un menor contacto del personal administrativo, pues el objetivo es disminuir su trabajo con el chatbot. Se considera personal administrativo a todas aquellas personas que pertenecen a Servicios Escolares y a administrativos de los departamentos acádemicos. Se esperan las siguientes interacciones: dar información tanto general como personal a los alumnos, brindar apoyo y resolver dudas sobre su vida académica; envíar y recibir mensajes de otros usuarios en el caso necesario. 
-+ **Profesores:** Será el segundo usuario con mayor contacto con la aplicación. Se concidera profesor a todos los catedráticos que se encuentren impartiendo alguna clase en la institución. Se esperan las siguientes interacciones: envíar y recibir mensajes con otros usuarios, buscar usuarios.
++ **Administradores:** Grupo encargado de administrar y mantener la plataforma ConectaITAM, incluída
+  la base de datos y los sistemas relacionados a esta. Se espera en un inicio gran interación con la
+  plataforma, dado que son los encargados de la gestión de chats grupales predefinidos relacionados
+  a las clases inscritas del alumno, así como de la gestión del _chatbot_. Se espera que los
+  administradores tengan un alto conocimiento del software.
++ **Estudiantes:** Serán los usuarios que tendrán mayor contacto con la plataforma; se espera un uso
+  diario. Se considera estudiante a todo aquel que curse alguna materia en el ITAM, sea de
+  licenciatura, ingeniería o algún posgrado. Se esperan las siguientes interacciones: enviar y
+  recibir mensajes, crear y gestionar chats grupales y buscar usuarios.
++ **Personal administrativo:** Se espera un menor contacto del personal administrativo, pues el
+  objetivo es disminuir su trabajo mediante el _chatbot_. Se considera personal administrativo a
+  todas aquellas personas que pertenecen a Servicios Escolares, así como a los administrativos de
+  los departamentos acádemicos. Se esperan las siguientes interacciones: dar información tanto
+  general como personalizada a los alumnos; brindar apoyo y resolver dudas sobre su vida académica,
+  y; enviar y recibir mensajes de otros usuarios cuando sea necesario.
++ **Profesores:** Serán los usuarios con la segunda mayor interacción con la plataforma. Se
+  consideran profesores a todos los catedráticos que se encuentren impartiendo alguna clase en la
+  institución. Se esperan las siguientes interacciones: enviar y recibir mensajes con otros
+  usuarios, buscar usuarios y enviar mensajes urgentes.
 
 ### Entorno operativo
 
-ConectaITAM está desarrollado para poder convivir con el siguiente entorno: 
-+ **OE-1:** No hay restricción geográfica de dónde operará la aplicación.
-+ **OE-2:** Deberá operar en los navegadores web principales: Chrome, Firefox, Safari y Opera.
+ConectaITAM está desarrollado para poder operar en el siguiente entorno: 
++ **OE-1:** No hay restricción geográfica de dónde funcionará la plataforma.
++ **OE-2:** Deberá ser accesible mediante los navegadores _web_ principales: Chrome, Firefox, Safari y
+  Opera.
 + **OE-3:** Se deberá proporcionar un servicio continuo y estable.
 
 ### Restricciones de diseño e implementación
 
-ConectaITAM estará restringido a las siguientes limitaciones:
-+ **DIC-1:** Se deberá cumplir con las políticas de información, seguridad y privacidad del ITAM.
-+ **DIC-2:** Se deberá usar las tecnologías de acuerdo a los estándares del ITAM.
+ConectaITAM está restringido por las siguientes limitaciones:
++ **DIC-1:** Se deberán cumplir las políticas de información, seguridad y privacidad del ITAM.
++ **DIC-2:** Se deberán usar las tecnologías de acuerdo a los estándares del ITAM.
 + **DIC-3:** Se limitará el tamaño de los archivos multimedia compartidos mediante el chat.
-+ **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat. Solo ciertas extenciones serán válidas.
-+ **DIC-5:** No se permitirán llamadas ni videollamadas.
++ **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat.
++ **DIC-5:** No habrá soporte para llamadas ni videollamadas.
 
 ### Documentación del usuario
 
 ConectaITAM proveerá dos tipos de apoyo para sus usuarios.
-+ Dentro de la aplicación existirá un botón de ayuda, el cual incluirá un tutorial interáctivo para los usuarios.
-+ Fuera de la aplicación el ITAM proveerá un manual de usuario en su portal principal.
-    - Este manual de usuario será envíado también a través del correo institucional cuando la aplicación esté en uso.
++ Dentro de la plataforma habrá un botón de ayuda, el cual incluirá un tutorial interactivo para los
+  usuarios.
++ Fuera de la plataforma, el ITAM proveerá un manual de usuario en su portal principal.
+    - Este manual de usuario será envíado también a través del correo institucional cuando la
+      aplicación entre en uso.
 
 ### Suposiciones y dependencias
 
-ConectaITAM contará con las siguientes dependencias:
-+ **AS-1:** Las cuentas de usuarios de la aplicación están ligadas a la autentificación del ITAM. Ninguna persona que no posea un correo institucional verificado podrá tener acceso a la aplicación.
-+ **AS-2:** Se queda sujeto al funcionamiento de los servidores y de la base de datos del ITAM.
-+ **AS-3:** Se asume que la aplicación podrá funcionar adecuadamente con aproximadamente 6,000 usuarios.
-+ **AS-4:** Se presume que los usuarios tendrán actualizado sus sistemas operativos y navegadores web.
+ConectaITAM cuenta con las siguientes dependencias:
++ **AS-1:** Las cuentas de usuarios de la plataforma están ligadas a la autenticación del
+  ITAM. Ninguna persona que no posea un correo institucional verificado podrá tener acceso a la
+  aplicación.
++ **AS-2:** Queda sujeta al funcionamiento de los servidores y de la base de datos del ITAM.
++ **AS-3:** Asume que la plataforma podrá funcionar adecuadamente con aproximadamente 6,000
+  usuarios.
++ **AS-4:** Presume que los usuarios tendrán actualizados sus sistemas operativos y navegadores web.
 
 ## 1.3 Requerimientos de interfaz externa
 
