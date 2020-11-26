@@ -231,57 +231,74 @@ ConectaITAM cuenta con las siguientes dependencias:
 ### Requerimientos de rendimiento
 
 ConectaITAM deberá mostrar el siguiente desempeño:
-+ El sistema deberá de actualizarse en tiempo real.
-+ Cualquier solicitud deberá responderse en menos de 500ms.
-El desempeño dependerá del estado de los servidores y de la base de datos del ITAM.
++ El sistema deberá actualizarse automáticamente en cuanto sea posible.
++ Cualquier solicitud deberá ser satisfecha en menos de 500ms. El desempeño dependerá de la carga en
+los servidores y en la base de datos del ITAM.
 
 ### Requerimientos de seguridad (Safety)
 
-ConectaITAM sigue los lineamientos de acuerdo a los estatutos de la institución. Por ello, nos apegamos a salvaguardar la integridad de nuestros usuarios y velar por su salud y seguridad personal.
+ConectaITAM se apega al reglamento de alumnos, de profesores y de administrativos de la
+institución. Por ello, está sujeto a salvaguardar la integridad de los usuarios y proteger su
+bienestar y seguridad personal.
 
-+ **SA-1:** Se restringirá el lenguaje agresivo que los usuarios podrían usar durante sus conversaciones. 
-+ **SA-2:** Se contará con una opción para notificar la revisión de menajes que puedieran agraviar a una persona.
-+ **SA-3:** Se podrá bloquear la comunicación y denunciar al usuario haga mal uso de la herramienta.
-+ **SA-4:** En casos extremos de acoso o agresión se podrá realizar una comunicación directa con un administrativo de servicios escolares adjuntando una copia de seguridad del chat del usuario que se está reportando.
++ **SA-1:** Se reportará y penalizará el lenguaje agresivo que los usuarios empleen durante sus
+  conversaciones.
++ **SA-2:** Se contará con una opción que marque para revisión manual los mensajes que agredan a un
+  usuario.
++ **SA-3:** Se podrá bloquear la comunicación con un usuario y denunciarle por hacer mal uso de la
+  herramienta.
++ **SA-4:** En casos extremos de acoso o agresión, se podrá solicitar una comunicación directa con
+  un administrativo de servicios escolares, adjuntando una copia de seguridad de la conversación con
+  el usuario agresor.
 
 ### Requerimientos de seguridad (Security)
 
-ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la institución. Por ello se siguen los siguientes requerimientos de protección, pues al ser una aplicación de chat para los asuntos escolares del ITAM, nos vemos en la necesidad de proteger la confidencialidad que la institución siempre ha protegido.
+ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la institución. Por ello,
+se siguen los siguientes requerimientos de protección. Al ser una plataforma de comunicación para
+los asuntos escolares del ITAM, es necesario proteger la confidencialidad que la institución es
+responsable de salvaguardar.
 
-+ **SE-1:** Todos los usuarios de la aplicación serán validados directamente por la institución, de no ser así no podrán utilizar el sistema.
++ **SE-1:** Todos los usuarios de la aplicación serán validados directamente por la institución. De
+  no ser así, no podrán utilizar el sistema.
 + **SE-2:** Se manejará una lista de dispositivos de confianza para todos los usuarios.
-+ **SE-3:** El inicio de sesión en nuevo dispositivo tendrá que realizar una verificación de dos pasos y se podrá marcar si este nuevo dispositivo será o no de confianza.
-+ **SE-4:** La información sensible de los usuarios será protegida y encriptada, para proteger de cualquier robo de información o ataque.
-+ **SE-5:** Los mensajes, tanto privados como públicos, serán encriptados para mantener la confidencialidad de los asuntos escolares de la institución.
-+ **SE-6:** Se realizará constantemente copias de seguridad para mantener la integridad y confiabilidad de la base de datos.
-+ **SE-7:** Los alumnos, no podrán gestionar de ninguna forma los grupos predefinidos por los administradores del sistema.
-+ **SE-8:** Los profesores, junto con los administradores serán los únicos en gestionar los grupos predefinidos.
++ **SE-3:** Al iniciar sesión en nuevo dispositivo, se deberá verificar el mismo y el sistema
+  establecerá la confianza del nuevo equipo.
++ **SE-4:** La información sensible de los usuarios será protegida y encriptada para defenderse de
+  cualquier robo de información o ataque.
++ **SE-5:** Los mensajes, tanto privados como públicos, serán encriptados para mantener la
+  confidencialidad de los asuntos escolares de la institución.
++ **SE-6:** Se realizarán constantemente copias de seguridad para mantener la integridad y
+  confiabilidad de la base de datos.
++ **SE-7:** Los alumnos no podrán gestionar de ninguna forma los grupos predefinidos por los
+  administradores del sistema.
++ **SE-8:** Los profesores, junto con los administradores, serán los únicos que gestionen los grupos
+  predefinidos.
 
 ### Atributos de calidad de software
 
-+ **SQ-1:** El sistema será fácil de usar para todos los usuarios, se aplicarán periodicamente un
-sondeo sobre usuarios seleccionados para evaluar nuestra calidad de diseño.
++ **SQ-1:** El sistema será fácil de usar para todos los usuarios, se aplicará periodicamente un
+sondeo a usuarios seleccionados para evaluar la calidad de diseño.
 
-+ **SQ-2:** El sistema estará siempre disponible, teniendo principal cuidado en las horas pico. Por
-ello se monitorizarán constantemente las transacciones de datos y los incidentes que podrían llegar
-a suceder.
++ **SQ-2:** El sistema estará siempre disponible, con un enfoque en las horas pico. Por ello ,se
+monitorearán constantemente las transacciones de datos y los incidentes que podrían llegar a
+suceder.
 
-+ **SQ-3:** El sistema contará con constantes copias de seguridad de las versiones más estables para
-que en el caso de fallas se pueda mantener el servicio a nuestros usuarios.
++ **SQ-3:** El sistema contará con frecuentes copias de seguridad de los estados estables del mismo,
+para que en el caso de fallas, se pueda reestablecer el servicio a los usuarios.
 
 ### Reglas de negocio
 
-+ **BU-1:** Solo los profesores y los administradores del sistema serán capaces de modificar los chats
-grupales predefinidos.
++ **BU-1:** Solo los profesores y los administradores del sistema serán capaces de modificar los
+chats grupales predefinidos.
 
-+ **BU-2:** Solo el administrador del sistema será capaz de bloquear permanentemente la comunicación
-entre dos usuarios.
++ **BU-2:** Solo los administradores del sistema serán capaces de bloquear permanentemente la
+comunicación entre dos usuarios.
 
-+ **BU-3:** Solo los administradores de servicios escolares podrán gestionar la información del
-chatbot.
++ **BU-3:** Solo los administrativos de servicios escolares y departamentos académicos, así como los
+administradores, podrán gestionar la información del chatbot.
 
-+ **BU-4:** Los estudiantes serán capaces de bloquear, como máximo una semana, la comunicación con
-otro usuario.
++ **BU-4:** Los estudiantes serán capaces de bloquear, por una semana como máximo, la comunicación
+con otro usuario.
 
 # 2. Plan de Calidad
 
