@@ -127,7 +127,7 @@ Servicios Web.
 
 A continuación, se muestra un diagrama que ilustra las entidades externas y los actores del sistema.
 
-![](https://highstreetfashions.com/images/image-not-found.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/mapa1.png)
 
 ### Funciones del producto
 
@@ -259,30 +259,130 @@ ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la ins
 
 ### Atributos de calidad de software
 
++ **SQ-1:** El sistema será fácil de usar para todos los usuarios, se aplicarán periodicamente un
+sondeo sobre usuarios seleccionados para evaluar nuestra calidad de diseño.
+
++ **SQ-2:** El sistema estará siempre disponible, teniendo principal cuidado en las horas pico. Por
+ello se monitorizarán constantemente las transacciones de datos y los incidentes que podrían llegar
+a suceder.
+
++ **SQ-3:** El sistema contará con constantes copias de seguridad de las versiones más estables para
+que en el caso de fallas se pueda mantener el servicio a nuestros usuarios.
+
 ### Reglas de negocio
 
++ **BU-1:** Solo los profesores y los administradores del sistema serán capaces de modificar los chats
+grupales predefinidos.
+
++ **BU-2:** Solo el administrador del sistema será capaz de bloquear permanentemente la comunicación
+entre dos usuarios.
+
++ **BU-3:** Solo los administradores de servicios escolares podrán gestionar la información del
+chatbot.
+
++ **BU-4:** Los estudiantes serán capaces de bloquear, como máximo una semana, la comunicación con
+otro usuario.
 
 # 2. Plan de Calidad
 
 ## 2.1 Identificador del plan de prueba
 
+ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
+
 ## 2.2 Referencias
+
+Los documentos que respaldan este plan de calidad son:
+
+[Plan de proyecto y requerimientos del
+sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
 
 ## 2.3 Introducción
 
+Este plan de calidad para el sistema ConectaITAM se llevará acabo en los más populares navegadores
+web, tal como: Chrome, Firefox, Safari y Opera. En este documento se tendrá como objetivo:
+
++ Definir las herramientas para utiliar durante todo el proceso de pruebas.
++ Definir cuales son los parámetros para realizar dichas pruebas.
++ Identificar los elementos en los que se realiarán las pruebas y establecer lo que se espera de
+  ellas.
+
+Todo lo anterior para poder dar la mayor seguridad y confiabilidad a nuestro sistema de mensajería
+ConectaITAM.
+
 ## 2.4 Elementos de prueba
+
+Los elementos a probar del sistema ComunicaITAM son:
+
++ Inicio de sesión (con verificación)
++ Enviar y recibir mensajes entre usuarios.
++ Creación de chats grupales predefinidos.
++ Creación de chats grupales por los estudiantes.
++ Iniciar una nueva conversación.
++ Busqueda de usuario por nombre, correo instituciones o clase conjunta.
++ Gestión de conversaciones y de grupos privados.
++ Comunicación con el chatbot de servicios escolares.
++ Reporte de mensajes o de usuarios inapropiados.
++ Bloqueo de usuarios.
+
+Los elementos deben probarse en Windows y MacOs, así como en los navegadores web más populares.
 
 ## 2.5 Problemas de riesgo del software
 
+
+Las áreas críticas del sistema ComunicaITAM son:
+
++ ...
++ 
+
 ## 2.6 Funcionalidades a probar
+
++ Como estudiante/ profesor quiero ingresar al sistema ConectaITAM.
++ Como estudiante/profesor quiero navegar entre mis conversaciones.
++ Como estudiante/profesor quiero crear una nueva conversación.
++ Como estudiante/profesor quiero buscar a un usuario.
++ Como estudiante quiero crear un subgrupo de una materia.
++ Como estudiante/profesor quiero gestionar mis conversaciones.
++ Como estudiante/profesor quiero reportar a un usuario.
++ Como estudiante/profesor quiero envía un mensaje a una conversación ya creada.
++ Como estudiante quiero conversar con el chatbot de servicios escolares.
++ Como estudiante/profesor quiero subir un archivo multimedia.
 
 ## 2.7 Funcionalidades que no deben probarse
 
-## 2.8 Enfoque
+
+Las siguientes funciones no serán sometidas a pruebas.
+
++ Notificación de nuevos mensajes.
++ Creación de chat grupales predefinidos.
++ Creación de agendar una cita por medio del chatbot.
+
+## 2.8 Enfoque (estrategia)
 
 ## 2.9 Críterios de aprobación/falla
 
+El sistema ComunicaITAM seguirá los siguientes críterios de aprobación y falla:
+
++ Todas las funcionalidades del sistema descritos en este documento deben de funcionar de la manera
+  en la que se tiene esperado y como se describe en el documento de requisitos.
++ No se aceptarán bajo ninguna circunstancia errores críticos ni defectos que se lleguen a encontrar
+  durante el proceso de pruebas.
++ El estudiante debe de ser capaz de envía y recibir mensajes, crear y administrar sus
+  conversaciones privadas, buscar usuarios, subir archivos multimedia y conversar con el
+  chatbot. Todas las acciones se deben de poder acompletar sin retraso ni errores.
++ El profesor debe ser capaz de envía y recibir mensajes, crear y administrar sus conversaciones
+  privadas, grationar los chat grupales predefinidos, buscar usuarios, subir archivos multimedia y
+  conversar con el chatbot. Todas las acciones se deben de poder acompletar sin retraso ni errores.
+
 ## 2.10 Criterios de suspensión y requisitos de reanudación
+
+Las pruebas para el sistema ComunicaITAM deberán detenerse inmediatemente si:
+
++ Se experimenta error en inicio de sesión.
++ Se experimenta error en alguna acción básica como: creación, lectura, actualización y eliminación
+  de solicitudes a la base de datos.
++ Existe un gran porcentaje de ciclos de prueba fallidos, más del 50% del total de los casos.
++ Se incrementa notablemente el número de defectos encontrados durante las pruebas, más de 10
+  defectos.
 
 ## 2.11 Entregables de prueba
 
