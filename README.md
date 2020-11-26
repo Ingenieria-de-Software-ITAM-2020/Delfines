@@ -415,8 +415,10 @@ Los elementos deben probarse en Windows, MacOS y Linux, así como en los navegad
 
 Las áreas críticas del sistema ConectaITAM son:
 
-+ ...
-+ 
++ Intercambio de mensajes a través de la red.
++ Almacenamiento de conversaciones, datos personales y demás información confidencial.
++ Envío de archivos multimedia.
++ Permisos de administradores, profesores y empleados administrativos.
 
 ## 2.6 Funcionalidades a probar
 
