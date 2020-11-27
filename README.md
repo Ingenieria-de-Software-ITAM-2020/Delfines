@@ -12,8 +12,6 @@
 - Mónica Hernández Martínez - 163543
 - Piero Vera Stephens - 179915
 
-**Liga:** [ConectaItam](https://jacquelinelira.github.io/ConectaItam)
-
 # Índice
 
 
@@ -251,6 +249,12 @@ una dirección de correo válida podrán crear una cuenta en la plataforma; habr
 la misma.
 
 #### 4.1.2 Estímulos / Respuestas
++ Estímulo: El usuario ingresa sus credenciales y son correctas.
++ Respuesta: El sistema permite el acceso a las demás funcionalidades.
++ Estímulo: El usuario ingresa credenciales incorrectas.
++ Respuesta: El sistema indica que las credenciales son incorrectas. Después de tres intentos, el
+usuario será bloqueado temporalmente de su cuenta.
+
 
 #### 4.1.3 Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
@@ -528,6 +532,14 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
   defectos).
 
 ## 11 Entregables de prueba
+Los entregables considerados en este plan son los siguientes:
++ Plan de prueba
++ Especificaciones del diseño de pruebas
++ Especificaciones de casos de prueba
++ Especificaciones de los procedimientos de prueba
++ *Logs* de pruebas
++ Reportes de incidentes de pruebas
++ Informes resumidos sobre las pruebas
 
 ## 12 Tareas de pruebas restantes
 
@@ -582,7 +594,7 @@ liga](https://jacquelinelira.github.io/ConectaItam/).
    chatbot por la calificación de Aprendizaje, a lo cual el chatbot le responde.  10) Se pide
    agendar una cita con Becas, a lo cual el chatbot le da la opción de que días se pueden. (Se elige
    la opción 1).
-
+   
 # Presentación
 
 Podrá encontrar la presentación del proyecto final [aquí]()
