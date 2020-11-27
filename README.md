@@ -489,6 +489,9 @@ Las siguientes funciones no serán sometidas a pruebas.
   + El encargado de prueba deberá crear los escenarios de prueba para los _testers_.
   + Los _testers_ deberán reportar el resultado con aprobado, fallado u omitido.
   + Los _testers_ podrán indicar notas adicionales relevantes a las pruebas.
++ Las pruebas se realizarán de forma unitaria, en tanto se hagan disponibles las funcionalidades.
++ Adicionalmente, habrá una prueba final que consista en evaluar la plataforma como un sistema
+  integrado.
 + Se utilizarán las siguientes métricas dentro de la plataforma:
   + Tipos de archivos multimedia enviados.
   + Tiempo utilizado por funcionalidad a probar.
@@ -545,6 +548,20 @@ Los entregables considerados en este plan son los siguientes:
 
 ## 12 Tareas de pruebas restantes
 
+Para los entregables del punto anterior, se deberán cumplir las siguientes tareas:
+
++ Preparación del plan de pruebas.
++ Revisión y modificación, en caso de ser necesario, de los escenarios de pruebas.
++ Preparación del entorno de pruebas, de acuerdo al punto siguiente.
++ Asignación aleatoria de pruebas a los _testers_.
++ Indicación a los _testers_ de qué áreas de la plataforma se deben probar y cuáles aún no (pruebas
+  unitarias parciales). En su caso, se indicará que la prueba es para toda la plataforma.
++ Recabación de datos durante y después de las pruebas, tanto de métricas como de los _testers_
+  directamente. 
++ Registro de incidentes durante las pruebas al sistema.
++ Contraste con resultados esperados de cada prueba.
++ Preparación del informe de resultados de las pruebas.
+
 ## 13 Necesidades ambientales
 
 Para llevar a cabo las pruebas, es necesario que los _testers_ cuenten con todos los sistemas
@@ -552,7 +569,8 @@ operativos y los buscadores instalados que se desean probar. Para estos, se util
 más recientes únicamente. Es posible que los sistemas operativos estén instalados en máquinas
 virtuales. Los resultados de las pruebas se originarán de las métricas, así como de lo indicado por
 los _testers_ según el punto 8 de este documento. Las computadoras necesitarán únicamente de una
-conexión de internet normal.
+conexión de internet normal. Los _testers_, adicionalmente, requerirán de cuentas de prueba en un
+entorno independiente al de producción dentro de la plataforma.
 
 ## 14 Necesidades del personal y capacitación
 
