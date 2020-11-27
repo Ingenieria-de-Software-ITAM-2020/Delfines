@@ -12,8 +12,6 @@
 - Mónica Hernández Martínez - 163543
 - Piero Vera Stephens - 179915
 
-**Liga:** [ConectaItam](https://jacquelinelira.github.io/ConectaItam)
-
 # Índice
 
 
@@ -251,6 +249,12 @@ una dirección de correo válida podrán crear una cuenta en la plataforma; habr
 la misma.
 
 #### 4.1.2 Estímulos / Respuestas
++ Estímulo: El usuario ingresa sus credenciales y son correctas.
++ Respuesta: El sistema permite el acceso a las demás funcionalidades.
++ Estímulo: El usuario ingresa credenciales incorrectas.
++ Respuesta: El sistema indica que las credenciales son incorrectas. Después de tres intentos, el
+usuario será bloqueado temporalmente de su cuenta.
+
 
 #### 4.1.3 Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
@@ -414,8 +418,7 @@ ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
 
 Los documentos que respaldan este plan de calidad son:
 
-[Plan de proyecto y requerimientos del
-sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
+[Plan de proyecto y requerimientos del sistema](#requerimientos-del-sistema)
 
 ## 3 Introducción
 
@@ -529,6 +532,14 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
   defectos).
 
 ## 11 Entregables de prueba
+Los entregables considerados en este plan son los siguientes:
++ Plan de prueba
++ Especificaciones del diseño de pruebas
++ Especificaciones de casos de prueba
++ Especificaciones de los procedimientos de prueba
++ *Logs* de pruebas
++ Reportes de incidentes de pruebas
++ Informes resumidos sobre las pruebas
 
 ## 12 Tareas de pruebas restantes
 
