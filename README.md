@@ -548,11 +548,18 @@ fáciles de detectar, dado que los cambios desde el último incremento son relat
 
 La liga para el proyecto se encuentra en [en esta liga](https://jacquelinelira.github.io/ConectaItam/).
 
-Al iniciar sesión se utiliza los siguientes datos:
-
-Usuario: yo 
-
-Contraseña: pass
+1) Para iniciar sesión se utilizan los siguientes datos:
+   Usuario: yo 
+   Contraseña: pass
+2) Una vez en la pantilla de inicio, se presiona sobre el texto "Aprendizaje de Maquina", que redirige al chat de ese grupo.
+3) Al agregar un texto en el campo de texto y presionar el botón aparecerá en la pantalla del chat. (Nota: El texto que aparece es predeterminado).
+4) Se seleccionan los ... a lado izquierdo del campo de texto y se selecciona la opción Subir documento.
+5) Al pasar el ratón sobre la sección de arrastrar y soltar se "cargan" los archivos arrastrados y se presiona el botón "Subir".
+6) Se seleccionan los ... de nuevo y se selecciona la opción Crear subgrupo.
+7) Se llenan los campos de nombre y descripción, se seleccionan los miembros que se van a agregar (Gandolfo Garibay y Jorge Rosado) y se aprieta el botón "Crear grupo"
+8) Se aprieta el botón del robot (que se encuentra en la parte superior derecha de la pantalla).
+9) Se le pregunta al chatbot por la calificación de Aprendizaje, a lo cual el chatbot le responde.
+10) Se pide agendar una cita con Becas, a lo cual el chatbot le da la opción de que días se pueden. (Se elige la opción 1).
 
 # Presentación
 
