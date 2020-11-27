@@ -64,11 +64,11 @@
    replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
 6. [Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#6-presentación)
 
-# 1. Requerimientos del Sistema
+# Requerimientos del Sistema
 
-## 1.1 Introducción
+## 1 Introducción
 
-### Propósito
+### 1.1 Propósito
 
 En este documento se describen las especificaciones de los requerimientos del sistema ConectaITAM,
 la cual es una plataforma de comunicación exclusiva para el Instituto Tecnológico Autónomo de México
@@ -79,7 +79,7 @@ facilitándoles las herramientas para poder expresarse y desarrollarse de la mej
 diaria como estudiantes. A continuación, se describe detalladamente la plataforma de ConectaITAM
 1.0.
 
-### Convenciones del documento
+### 1.2 Convenciones del documento
 
 En este documento se hace uso del estándar de la IEEE para SRS (_Software Requirements
 Specifications_), SIO/IEC/IEEE 29148.
@@ -88,7 +88,7 @@ En la asignación de prioridades para las funcionalidades del _software_, se man
 3, en el cual 1 significa que el requerimiento es indispensable y 3 denota que se puede prescindir
 de él.
 
-### Público objetivo y sugerencicas de lectura
+### 1.3 Público objetivo y sugerencicas de lectura
 
 Este documento está dirigido hacia los desarrolladores que están a cargo del mantenimiento del
 sistema ConectaITAM. Se espera que este cuerpo de desarrolladores se conforme por el personal
@@ -96,7 +96,7 @@ administrativo del área de cómputo en el ITAM. Se les sugiere leer todo el doc
 posteriormente apoyarse en el índice para referenciar rápidamente las secciones relevantes que se
 requieran para el mantenimiento del sistema.
 
-### Alcance del producto
+### 1.4 Alcance del producto
 
 ConectaITAM es una plataforma que permite a los alumnos del ITAM tener una aplicación para la
 comunicación rápida y eficaz con todos los estudiantes, profesores y personal administrativo del
@@ -117,9 +117,9 @@ ConectaITAM tiene como metas:
       los alumnos tengan que acudir a las instalaciones para tareas sencillas, lo cual reducirá la
       carga administrativa.
 
-## 1.2 Descripción general
+## 2 Descripción general
 
-### Perspectiva del producto
+### 2.1 Perspectiva del producto
 
 ConectaITAM es una plataforma que será añadida al conjunto de aplicaciones ofrecidas por el ITAM.
 La plataforma busca complementar a las aplicaciones ya existentes, tal como Comunidad ITAM y
@@ -129,7 +129,7 @@ A continuación, se muestra un diagrama que ilustra las entidades externas y los
 
 ![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/mapa1.png)
 
-### Funciones del producto
+### 2.2 Funciones del producto
 
 El sistema ConectaITAM ofrece las siguientes funcionalidades principales:
 
@@ -145,7 +145,7 @@ El sistema ConectaITAM ofrece las siguientes funcionalidades principales:
 + **PF-7:** Crear y gestionar conversaciones con el personal de servicios escolares y departamentos
   académicos.
 
-### Clases y características del usuario
+### 2.3 Clases y características del usuario
 
 Los tipos de usuario que utilizarán ConectaITAM son:
 
@@ -169,7 +169,7 @@ Los tipos de usuario que utilizarán ConectaITAM son:
   institución. Se esperan las siguientes interacciones: enviar y recibir mensajes con otros
   usuarios, buscar usuarios y enviar mensajes urgentes.
 
-### Entorno operativo
+### 2.4 Entorno operativo
 
 ConectaITAM está desarrollado para poder operar en el siguiente entorno: 
 + **OE-1:** No hay restricción geográfica de dónde funcionará la plataforma.
@@ -177,7 +177,7 @@ ConectaITAM está desarrollado para poder operar en el siguiente entorno:
   Opera.
 + **OE-3:** Se deberá proporcionar un servicio continuo y estable.
 
-### Restricciones de diseño e implementación
+### 2.5 Restricciones de diseño e implementación
 
 ConectaITAM está restringido por las siguientes limitaciones:
 + **DIC-1:** Se deberán cumplir las políticas de información, seguridad y privacidad del ITAM.
@@ -186,7 +186,7 @@ ConectaITAM está restringido por las siguientes limitaciones:
 + **DIC-4:** Se limitará el tipo de archivos multimedia compartidos mediante el chat.
 + **DIC-5:** No habrá soporte para llamadas ni videollamadas.
 
-### Documentación del usuario
+### 2.6 Documentación del usuario
 
 ConectaITAM proveerá dos tipos de apoyo para sus usuarios.
 + Dentro de la plataforma habrá un botón de ayuda, el cual incluirá un tutorial interactivo para los
@@ -195,7 +195,7 @@ ConectaITAM proveerá dos tipos de apoyo para sus usuarios.
     - Este manual de usuario será envíado también a través del correo institucional cuando la
       aplicación entre en uso.
 
-### Suposiciones y dependencias
+### 2.7 Suposiciones y dependencias
 
 ConectaITAM cuenta con las siguientes dependencias:
 + **AS-1:** Las cuentas de usuarios de la plataforma están ligadas a la autenticación del
@@ -206,124 +206,116 @@ ConectaITAM cuenta con las siguientes dependencias:
   usuarios.
 + **AS-4:** Presume que los usuarios tendrán actualizados sus sistemas operativos y navegadores web.
 
-## 1.3 Requerimientos de interfaz externa
+## 3 Requerimientos de interfaz externa
 
-### Interfaces de usuario
+### 3.1 Interfaces de usuario
 
-### Interfaces de hardware
+### 3.2 Interfaces de hardware
 
-### Interfaces de software
+### 3.3 Interfaces de software
 
-### Interfaces de comunicaciones
+### 3.4 Interfaces de comunicaciones
 
-## 1.4 Funcionalidades del sistema
+## 4 Funcionalidades del sistema
 
-### Iniciar sesión 
+### 4.1 Iniciar sesión 
 
-#### Descripción
+#### 4.1.1 Descripción
 Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el
 usuario pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con
 una dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de
 la misma.
 
-#### Estímulos / Respuestas
+#### 4.1.2 Estímulos / Respuestas
 
-#### Requerimientos funcionales
-
+#### 4.1.3 Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
 
 + **REQ-2**: Debe existir un sistema de búsqueda siempre accesible al usuario.
 
-### Creación de conversaciones grupales
+### 4.2 Creación de conversaciones grupales
 
-#### Descripción
+#### 4.2.1 Descripción
 Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
 número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
 grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (3).
 
-#### Estímulos / Respuestas
-
+#### 4.2.2 Estímulos / Respuestas
 + Estímulo: El alumno seleccionará varios alumnos para añadir al grupo.
 
 + Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
    aceptaren.
 
-#### Requerimientos funcionales
-
+#### 4.2.3 Requerimientos funcionales
 + **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
   ConectaITAM.
   
 + **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
 
-### Buscar contacto
+### 4.3 Buscar contacto
 
-#### Descripción
+#### 4.3.1 Descripción
 Se le asignó una prioridad media (2) a esta funcionalidad, pues es necesaria para la creación de los
 grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener ningún
 otro medio para comunicarse.
 
-#### Estímulos / Respuestas
-
+#### 4.3.2 Estímulos / Respuestas
 + Estímulo: El alumno introducirá el nombre del contacto que quiere buscar.
 
 + Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
    aceptaren.
 
-#### Requerimientos funcionales
-
+#### 4.3.3 Requerimientos funcionales
 + **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
   la búsqueda.
   
 + **REQ-2**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
 
-### Comunicarse con un profesor
+### 4.4 Comunicarse con un profesor
 
-#### Descripción
+#### 4.4.1 Descripción
 Esta es una funcionalidad muy importante de la plataforma (1) puesto que, al ser una aplicación
 universitaria, la comunicación entre alumnos y profesores es vital.
 
-#### Estímulos / Respuestas
-
+#### 4.4.2 Estímulos / Respuestas
 + Estímulo: El alumno seleccionará un profesor para mandarle un mensaje.
 
 + Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 
-#### Requerimientos funcionales
-
+#### 4.4.3 Requerimientos funcionales
 + **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
   quiere comunicarse.
   
 + **REQ-2**: De no ser horario laboral, quedará a decisión del profesor recibir estos mensajes.
 
-### Reportar un mal funcionamiento de la aplicación
+### 4.5 Reportar un mal funcionamiento de la aplicación
 
-#### Descripción
+#### 4.5.1 Descripción
 El usuario puede ver un mal funcionamiento de la aplicación y querrá reportarlo para que pueda ser
 arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la aplicación, se
 asigna prioridad media (2).
 
-#### Estímulos / Respuestas
+#### 4.5.2 Estímulos / Respuestas
 + Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
 reporte y una breve descripción. 
 
 + Respuesta: El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
 
-#### Requerimientos funcionales
-
+#### 4.5.3 Requerimientos funcionales
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
 
 + **REQ-2**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
 
-## 1.5 Otros requerimientos no funcionales
+## 5 Otros requerimientos no funcionales
 
-### Requerimientos de rendimiento
+### 5.1 Requerimientos de rendimiento
 
 ConectaITAM deberá mostrar el siguiente desempeño:
 + El sistema deberá actualizarse automáticamente en cuanto sea posible.
 + Cualquier solicitud deberá ser satisfecha en menos de 500ms. El desempeño dependerá de la carga en
 los servidores y en la base de datos del ITAM.
 
-### Requerimientos de seguridad (Safety)
+### 5.2 Requerimientos de seguridad (Safety)
 
 ConectaITAM se apega al reglamento de alumnos, de profesores y de administrativos de la
 institución. Por ello, está sujeto a salvaguardar la integridad de los usuarios y proteger su
@@ -339,7 +331,7 @@ bienestar y seguridad personal.
   un administrativo de servicios escolares, adjuntando una copia de seguridad de la conversación con
   el usuario agresor.
 
-### Requerimientos de seguridad (Security)
+### 5.3 Requerimientos de seguridad (Security)
 
 ConectaITAM sigue los lineamientos de privacidad y seguridad dictados por la institución. Por ello,
 se siguen los siguientes requerimientos de protección. Al ser una plataforma de comunicación para
@@ -362,7 +354,7 @@ responsable de salvaguardar.
 + **SE-8:** Los profesores, junto con los administradores, serán los únicos que gestionen los grupos
   predefinidos.
 
-### Atributos de calidad de software
+### 5.4 Atributos de calidad de software
 
 + **SQ-1:** El sistema será fácil de usar para todos los usuarios, se aplicará periodicamente un
 sondeo a usuarios seleccionados para evaluar la calidad de diseño.
@@ -374,7 +366,7 @@ suceder.
 + **SQ-3:** El sistema contará con frecuentes copias de seguridad de los estados estables del mismo,
 para que en el caso de fallas, se pueda reestablecer el servicio a los usuarios.
 
-### Reglas de negocio
+### 5.5 Reglas de negocio
 
 + **BU-1:** Solo los profesores y los administradores del sistema serán capaces de modificar los
 chats grupales predefinidos.
@@ -388,20 +380,20 @@ administradores, podrán gestionar la información del chatbot.
 + **BU-4:** Los estudiantes serán capaces de bloquear, por una semana como máximo, la comunicación
 con otro usuario.
 
-# 2. Plan de Calidad
+# Plan de Calidad
 
-## 2.1 Identificador del plan de prueba
+## 1 Identificador del plan de prueba
 
 ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
 
-## 2.2 Referencias
+## 2 Referencias
 
 Los documentos que respaldan este plan de calidad son:
 
 [Plan de proyecto y requerimientos del
 sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
 
-## 2.3 Introducción
+## 3 Introducción
 
 Este plan de calidad para la plataforma ConectaITAM está elaborado en torno a los más populares
 navegadores _web_, tal como: Chrome, Firefox, Safari y Opera. En este documento se tiene como
@@ -415,7 +407,7 @@ objetivo:
 Todo lo anterior se define con el fin de dar la mayor seguridad y confiabilidad a la plataforma de
 comunicación ConectaITAM.
 
-## 2.4 Elementos de prueba
+## 4 Elementos de prueba
 
 Los elementos a probar del sistema ConectaITAM son:
 
@@ -430,9 +422,7 @@ Los elementos a probar del sistema ConectaITAM son:
 + Reportar mensajes o a usuarios inapropiados.
 + Bloquear usuarios.
 
-Los elementos deben probarse en Windows, MacOS y Linux, así como en los navegadores web más populares.
-
-## 2.5 Problemas de riesgo del software
+## 5 Problemas de riesgo del software
 
 Las áreas críticas del sistema ConectaITAM son:
 
@@ -441,7 +431,7 @@ Las áreas críticas del sistema ConectaITAM son:
 + Envío de archivos multimedia.
 + Permisos de administradores, profesores y empleados administrativos.
 
-## 2.6 Funcionalidades a probar
+## 6 Funcionalidades a probar
 
 + Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
 + Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
@@ -455,7 +445,7 @@ Las áreas críticas del sistema ConectaITAM son:
   académicos.
 + Como estudiante/profesor quiero compartir un archivo multimedia.
 
-## 2.7 Funcionalidades que no deben probarse
+## 7 Funcionalidades que no deben probarse
 
 Las siguientes funciones no serán sometidas a pruebas.
 
@@ -463,9 +453,12 @@ Las siguientes funciones no serán sometidas a pruebas.
 + Crear conversaciones grupales predefinidas.
 + Agendar una cita por medio del chatbot.
 
-## 2.8 Enfoque (estrategia)
+## 8 Enfoque (estrategia)
 
-## 2.9 Criterios de aprobación/falla
++ La plataforma debe probarse en Windows, MacOS y Linux, así como en los navegadores web más
+  populares (Chrome, Firefox, Safari y Opera).
+
+## 9 Criterios de aprobación/falla
 
 El sistema ConectaITAM seguirá los siguientes críterios de aprobación y falla:
 
@@ -481,7 +474,7 @@ El sistema ConectaITAM seguirá los siguientes críterios de aprobación y falla
   multimedia y conversar con el _chatbot_.  Todas las acciones se deben efectuar con retrasos o
   errores mínimos.
 
-## 2.10 Criterios de suspensión y requisitos de reanudación
+## 10 Criterios de suspensión y requisitos de reanudación
 
 Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 
@@ -492,25 +485,25 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 + Incrementan notablemente el número de defectos encontrados durante las pruebas (más de 10
   defectos).
 
-## 2.11 Entregables de prueba
+## 11 Entregables de prueba
 
-## 2.12 Tareas de pruebas restantes
+## 12 Tareas de pruebas restantes
 
-## 2.13 Necesidades ambientales
+## 13 Necesidades ambientales
 
-## 2.14 Necesidades del personal y capacitación
+## 14 Necesidades del personal y capacitación
 
-## 2.15 Responsabilidades
+## 15 Responsabilidades
 
-## 2.16 Calendario
+## 16 Calendario
 
-## 2.17 Planificación de riesgos y contingencias
+## 17 Planificación de riesgos y contingencias
 
-## 2.18 Aprobación
+## 18 Aprobación
 
-## 2.19 Glosario
+## 19 Glosario
 
-# 3. Arquitectura
+# Arquitectura
 
 ConectaITAM utiliza una arquitectura por eventos. Las características de la arquitectura para esta
 plataforma ofrecen ventajas sobre las demás arquitecturas, con las menores desventajas. Asimismo, el
@@ -518,7 +511,7 @@ uso que le darán los usuarios a la plataforma será en forma de eventos, puesto
 no entablan una comunicación constante con otros usuarios, sino cuando lo demandan, y el sistema
 deberá responder en dicho caso.
 
-# 4. Metodología
+# Metodología
 
 ConectaITAM sigue una metodología incremental. La plataforma está suficientemente bien definida para
 seguir una metodología de cascada, pero la metodología incremental permite la atomización del
@@ -529,9 +522,13 @@ Otra ventaja de la metodología es que permite presentar un producto inicial a u
 periodo corto de tiempo. Después de la presentación inicial del producto, los defectos o *bugs* son
 fáciles de detectar, dado que los cambios desde el último incremento son relativamente pequeños.
 
-# 5. Instrucciones para replicar
+# Instrucciones para replicar
+La liga para el proyecto se encuentra en [en esta liga]([https://jacquelinelira.github.io/ConectaItam/).
+Al iniciar sesión se utiliza los siguientes datos
+Usuario: yo
+Contraseña: pass
 
-# 6. Presentación
+# Presentación
 
 Podrá encontrar la presentación del proyecto final [aquí]()
 
