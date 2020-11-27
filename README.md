@@ -11,7 +11,9 @@
 - José Luis Sandín Espinosa - 179706
 - Mónica Hernández Martínez - 163543
 - Piero Vera Stephens - 179915
-**Liga** https://jacquelinelira.github.io/ConectaItam
+
+**Liga:** [ConectaItam](https://jacquelinelira.github.io/ConectaItam)
+
 # Índice
 
 
