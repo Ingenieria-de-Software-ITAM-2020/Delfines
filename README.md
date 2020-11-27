@@ -84,6 +84,7 @@
   * [18 Aprobación](#18-aprobación)
 - [Arquitectura](#arquitectura)
 - [Metodología](#metodología)
+- [Casos de Uso](#casos-de-uso)
 - [Instrucciones para replicar](#instrucciones-para-replicar)
 - [Presentación](#presentación)
 
@@ -690,6 +691,16 @@ La metodología que se utilizó para ConectaITAM fue de prototipos, ya que esta 
 validar la esencia funcional del proyecto y realizar cambios esenciales antes de crear la solución final. 
 La ventaja de esta metodología es que nos permitió recopilar los requisitos de nuestra aplicación y 
 analizarla sin tener que invertir demasiados recursos.
+
+# Casos de Uso
+Caso 1: Un alumno quiere subir un documento a un grupo.
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/subir-documento.png)
+
+Caso 2: Un alumno crea un nuevo grupo dentro de una materia.
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear-grupo.png)
+
+Caso 3: Un alumno quiere agendar una cita con el chatbot
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear_cita.png)
 
 # Instrucciones para replicar
 
