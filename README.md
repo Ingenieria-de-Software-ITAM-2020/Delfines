@@ -287,8 +287,21 @@ usuario será bloqueado temporalmente de su cuenta.
 ### 4.2 Enviar mensajes individuales
 
 #### 4.2.1 Descripción
+
++ **Prioridad:** 1
+
+Esta funcionalidad tiene conjuntamente la mayor prioridad de toda la plataforma ya que es la base
+del sistema de comunicación. Es necesario que para enviar mensajes, los usuarios tengan las cuentas
+autorizadas y activadas.
+
 #### 4.2.2 Estímulos / Respuestas
++ Estímulo: El usuario selecciona un contacto y le envía un mensaje.
++ Respuesta: El sistema entregará el mensaje al usuario y le notificará de ello.
+
 #### 4.2.3 Requerimientos funcionales
++ **REQ-3**: La plataforma deberá almacenar las comunicaciones de los usuarios.
+
++ **REQ-4**: Los mensajes deberán ser enviados y se notificará al destinatario.
 
 ### 4.3 Comunicarse con un profesor
 
@@ -305,16 +318,35 @@ universitaria, la comunicación entre alumnos y profesores es vital.
 + Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 
 #### 4.3.3 Requerimientos funcionales
-+ **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
++ **REQ-5**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
   quiere comunicarse.
   
-+ **REQ-2**: De no ser horario laboral, quedará a decisión del profesor recibir estos mensajes.
++ **REQ-6**: De no ser horario laboral, quedará a decisión del profesor recibir estos mensajes.
 
 ### 4.4 Subir archivos multimedia
 
 #### 4.4.1 Descripción
+
++ **Prioridad:** 2
+
+Los usuarios, para fines de sus clases, necesitan tener la habilidad de compartirse archivos
+multimedia, por lo cual es una tarea importante de prioridad media. Esto, además, requerirá de
+filtración por tipos de archivo.
+
 #### 4.4.2 Estímulos / Respuestas
+
++ Estímulo: El usuario carga un archivo que desea compartir con otro usuario o grupo de usuarios.
+
++ Respuesta: El sistema verifica que el archivo sea aceptado, notifica al usuario y entrega el
+  archivo como mensaje al destinatario.
+
 #### 4.4.3 Requerimientos funcionales
+
++ **REQ-7**: Se debe contar con un sistema de almacenamiento de archivos multimedia por
+  un periodo de tiempo razonable para ser descargados en una conversación.
+  
++ **REQ-8**: Los archivos deberán ser analizados y filtrados internamente para verificar que el
+  archivo sea legítimo y no malicioso.
 
 ### 4.5 Reportar un mal funcionamiento de la aplicación
 
@@ -333,9 +365,9 @@ reporte y una breve descripción.
 + Respuesta: El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
 
 #### 4.5.3 Requerimientos funcionales
-+ **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
++ **REQ-9**: Debe haber un botón apropiado para realizar esta acción.
 
-+ **REQ-2**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
++ **REQ-10**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
 
 ### 4.6 Buscar contacto
 
@@ -355,10 +387,10 @@ pueda buscar un contacto en caso de no tener ningún otro medio para comunicarse
   introducidos por el usuario.
 
 #### 4.6.3 Requerimientos funcionales
-+ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
++ **REQ-11**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
   la búsqueda.
   
-+ **REQ-2**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
++ **REQ-12**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
 
 ### 4.7 Creación de conversaciones grupales
 
@@ -377,10 +409,10 @@ grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
    aceptaren.
 
 #### 4.7.3 Requerimientos funcionales
-+ **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
++ **REQ-14**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
   ConectaITAM.
   
-+ **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
++ **REQ-15**: Deberá existir una categoría de conversación grupal en la plataforma.
 
 ## 5 Otros requerimientos no funcionales
 
