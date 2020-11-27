@@ -82,7 +82,6 @@
   * [16 Calendario](#16-calendario)
   * [17 Planificación de riesgos y contingencias](#17-planificación-de-riesgos-y-contingencias)
   * [18 Aprobación](#18-aprobación)
-  * [19 Glosario](#19-glosario)
 - [Arquitectura](#arquitectura)
 - [Metodología](#metodología)
 - [Instrucciones para replicar](#instrucciones-para-replicar)
@@ -635,6 +634,14 @@ sistemas de reporte de incidentes, recaudación de datos y reporte de resultados
 
 ## 16 Calendario
 
+El periodo de implementación de las pruebas para el sistema ConectaITAM tendrán una duración de 3 semanas y se realizarán 1 mes antes de su lanzamiento. Se dividirá en tres periodos de pruebas y cada una de ellas tendrá una extensión de una semana. Cada periodo de prueba se enfocará en un bloque de funcionalidades.
+
+| Semana | Bloque de pruebas | Usuarios objetivo |
+| ------ | ------------------ | ------------------ |
+|    1   | Inicio de sesión, Envíar y recibir mensajes, Creación de grupos predefinidos, Creación y gestión de chats individuales y grupales privados, Buscador de usuarios. | Estudiantes, Profesores, Administradores del sistema |
+|    2   | Reporte de mensajes, reporte de ususarios, reporte de casos de acoso graves, bloqueo de usuarios, subir archivos adjuntos | Estudiantes, Profesores, Administradores del sistema, Administradores de servicios escolares |
+|    3   | Principales funciones del chatbot: dar información personal del alumno, dar información general sobre dudas, agendar citas con servicios escolares | Alumnos y Administradores de servicios escolares |
+
 ## 17 Planificación de riesgos y contingencias
 
 + La capacitación del responsable de prueba podría probar ser más complicada de lo estimado. De ser
@@ -660,8 +667,6 @@ las expectativas del producto, así como que la etapa de desarrollo relevante ha
 pueda continuar a la siguiente. Además, la aprobación final está sujeta a que el ITAM concuerde con
 que se cumplen las políticas de la institución en todas las competencias aplicables, definidas
 anteriormente en el documento de requerimientos.
-
-## 19 Glosario
 
 # Arquitectura
 
@@ -726,7 +731,7 @@ liga](https://jacquelinelira.github.io/ConectaItam/).
 
 # Presentación
 
-Podrá encontrar la presentación del proyecto final [aquí]()
+Podrá encontrar la presentación del proyecto final [aquí](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/presentaci%C3%B3n%20final.pdf)
 
 
 
