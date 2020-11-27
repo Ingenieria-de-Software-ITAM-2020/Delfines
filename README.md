@@ -578,6 +578,8 @@ Las siguientes funciones no serán sometidas a pruebas.
   + Los _testers_ deberán reportar el resultado con aprobado, fallado u omitido.
   + Los _testers_ podrán indicar notas adicionales relevantes a las pruebas.
 + Las pruebas se realizarán de forma unitaria, en tanto se hagan disponibles las funcionalidades.
++ Cada prototipo está constituido por 2 funcionalidades del sistema, o 4 requerimientos funcionales,
+  desarrollados en el orden en que se presentan en el SRS (4).
 + Adicionalmente, habrá una prueba final que consista en evaluar la plataforma como un sistema
   integrado.
 + Se utilizarán las siguientes métricas dentro de la plataforma:
