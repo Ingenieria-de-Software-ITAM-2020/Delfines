@@ -271,10 +271,12 @@ misma.
 
 #### 4.1.2 Estímulos / Respuestas
 + Estímulo: El usuario ingresa sus credenciales y son correctas.
-+ Respuesta: El sistema permite el acceso a las demás funcionalidades.
++ Respuesta: El sistema permititá el acceso a las demás funcionalidades.
 + Estímulo: El usuario ingresa credenciales incorrectas.
-+ Respuesta: El sistema indica que las credenciales son incorrectas. Después de tres intentos, el
++ Respuesta: El sistema indicará que las credenciales son incorrectas. Después de tres intentos, el
 usuario será bloqueado temporalmente de su cuenta.
++ Estímulo: El usuario ingresa desde un nuevo dispositivo.
++ Respuesta: El sistema deberá solicitarle al usuario que verifique su nuevo dispositivo.
 
 
 #### 4.1.3 Requerimientos funcionales
@@ -293,7 +295,7 @@ número de herramientas para comunicarse entre sí. Sin embargo, es importante p
 grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
 
 #### 4.2.2 Estímulos / Respuestas
-+ Estímulo: El alumno seleccionará varios alumnos para añadir al grupo.
++ Estímulo: El alumno selecciona varios alumnos entre sus contactos para añadir al grupo.
 
 + Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
    aceptaren.
@@ -315,10 +317,11 @@ grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso d
 otro medio para comunicarse.
 
 #### 4.3.2 Estímulos / Respuestas
-+ Estímulo: El alumno introducirá el nombre del contacto que quiere buscar.
++ Estímulo: El alumno introduce el nombre o dirección de correo electrónico del contacto que quiere
+  buscar.
 
-+ Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
-   aceptaren.
++ Respuesta: El sistema desplegará una lista de alumnos que coincidan con los parámetros
+  introducidos por el usuario.
 
 #### 4.3.3 Requerimientos funcionales
 + **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
@@ -336,7 +339,7 @@ Esta es una funcionalidad muy importante de la plataforma puesto que, al ser una
 universitaria, la comunicación entre alumnos y profesores es vital.
 
 #### 4.4.2 Estímulos / Respuestas
-+ Estímulo: El alumno seleccionará un profesor para mandarle un mensaje.
++ Estímulo: El alumno selecciona un profesor para mandarle un mensaje.
 
 + Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 
