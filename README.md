@@ -630,14 +630,10 @@ deberá responder en dicho caso.
 
 # Metodología
 
-ConectaITAM sigue una metodología incremental. La plataforma está suficientemente bien definida para
-seguir una metodología de cascada, pero la metodología incremental permite la atomización del
-proyecto para un desarrollo más fluido.  Además, es importante emprender las tareas con más alta
-prioridad sin dejar a un lado el proyecto en su totalidad.
-
-Otra ventaja de la metodología es que permite presentar un producto inicial a un bajo costo y en un
-periodo corto de tiempo. Después de la presentación inicial del producto, los defectos o *bugs* son
-fáciles de detectar, dado que los cambios desde el último incremento son relativamente pequeños.
+La metodología que se utilizó para ConectaITAM fue de prototipos, ya que esta metodología nos permitió 
+validar la esencia funcional del proyecto y realizar cambios esenciales antes de crear la solución final. 
+La ventaja de esta metodología es que nos permitió recopilar los requisitos de nuestra aplicación y 
+analizarla sin tener que invertir demasiados recursos.
 
 # Instrucciones para replicar
 
