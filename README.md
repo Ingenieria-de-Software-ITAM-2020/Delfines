@@ -539,7 +539,7 @@ Los entregables considerados en este plan son los siguientes:
 + Especificaciones del diseño de pruebas
 + Especificaciones de casos de prueba
 + Especificaciones de los procedimientos de prueba
-+ *Logs* de pruebas
++ *Logs* de pruebas y métricas
 + Reportes de incidentes de pruebas
 + Informes resumidos sobre las pruebas
 
