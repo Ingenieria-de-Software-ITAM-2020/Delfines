@@ -14,55 +14,77 @@
 
 # Índice
 
-1. [Requrimientos del
-   Sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
-    1. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#11-introducción)
-    2. [Descripción
-       general](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#12-descripción-general)
-    3. [Requerimientos de interfaz
-       externa](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#13-requerimientos-de-interfaz-externa)
-    4. [Funcionalidades del
-       sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#14-funcionalidades-del-sistema)
-    5. [Otros requerimientos no
-       funcionales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#15-otros-requerimientos-no-funcionales)
-2. [Plan de
-   Calidad](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#2-plan-de-calidad)
-    1. [Identificador del plan de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#21-identificador-del-plan-de-prueba)
-    2. [Referencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#22-referencias)
-    3. [Introducción](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#23-introducción)
-    4. [Elementos de
-       prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#24-elementos-de-prueba)
-    5. [Problemas de riesgo del
-       software](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#25-problemas-de-riesgo-del-software)
-    6. [Funcionalidades a
-       probar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#26-funcionalidades-a-probar)
-    7. [Funcionalidades que no deben
-       probarse](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#27-funcionalidades-que-no-deben-probarse)
-    8. [Enfoque](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#28-enfoque)
-    9. [Criterios de
-       aprobación/falla](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#29-criterios-de-aprobación/falla)
-    10. [Criterios de suspensión y requisitos de
-        reanudación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#210-criterios-de-suspensión-y-requisitos-de-reanudación)
-    11. [Entregables de
-        prueba](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#211-entregables-de-prueba)
-    12. [Tareas de pruebas
-        restantes](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#212-tareas-de-pruebas-restantes)
-    13. [Necesidades
-        ambientales](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#213-necesidades-ambientales)
-    14. [Necesidades del personal y
-        capacitación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#214-necesidades-del-personal-y-capacitación)
-    15. [Responsabilidades](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#215-responsabilidades)
-    16. [Calendario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#216-calendario)
-    17. [Planificación de riesgos y
-        contingencias](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#217-planificación-de-riesgos-y-contingencias)
-    18. [Aprobación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#218-aprobación)
-    19. [Glosario](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#219-glosario)
-3. [Arquitectura](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#3-arquitectura)
-4. [Metodología](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#4-metodología)
-5. [Instrucciones para
-   replicar](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#5-instrucciones-para-replicar)
-6. [Presentación](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#6-presentación)
+
+- [Requerimientos del Sistema](#requerimientos-del-sistema)
+  * [1 Introducción](#1-introducción)
+    + [1.1 Propósito](#11-propósito)
+    + [1.2 Convenciones del documento](#12-convenciones-del-documento)
+    + [1.3 Público objetivo y sugerencicas de lectura](#13-público-objetivo-y-sugerencicas-de-lectura)
+    + [1.4 Alcance del producto](#14-alcance-del-producto)
+  * [2 Descripción general](#2-descripción-general)
+    + [2.1 Perspectiva del producto](#21-perspectiva-del-producto)
+    + [2.2 Funciones del producto](#22-funciones-del-producto)
+    + [2.3 Clases y características del usuario](#23-clases-y-características-del-usuario)
+    + [2.4 Entorno operativo](#24-entorno-operativo)
+    + [2.5 Restricciones de diseño e implementación](#25-restricciones-de-diseño-e-implementación)
+    + [2.6 Documentación del usuario](#26-documentación-del-usuario)
+    + [2.7 Suposiciones y dependencias](#27-suposiciones-y-dependencias)
+  * [3 Requerimientos de interfaz externa](#3-requerimientos-de-interfaz-externa)
+    + [3.1 Interfaces de usuario](#31-interfaces-de-usuario)
+    + [3.2 Interfaces de hardware](#32-interfaces-de-hardware)
+    + [3.3 Interfaces de software](#33-interfaces-de-software)
+    + [3.4 Interfaces de comunicaciones](#34-interfaces-de-comunicaciones)
+  * [4 Funcionalidades del sistema](#4-funcionalidades-del-sistema)
+    + [4.1 Iniciar sesión](#41-iniciar-sesión)
+      - [4.1.1 Descripción](#411-descripción)
+      - [4.1.2 Estímulos / Respuestas](#412-estímulos-respuestas)
+      - [4.1.3 Requerimientos funcionales](#413-requerimientos-funcionales)
+    + [4.2 Creación de conversaciones grupales](#42-creación-de-conversaciones-grupales)
+      - [4.2.1 Descripción](#421-descripción)
+      - [4.2.2 Estímulos / Respuestas](#422-estímulos-respuestas)
+      - [4.2.3 Requerimientos funcionales](#423-requerimientos-funcionales)
+    + [4.3 Buscar contacto](#43-buscar-contacto)
+      - [4.3.1 Descripción](#431-descripción)
+      - [4.3.2 Estímulos / Respuestas](#432-estímulos-respuestas)
+      - [4.3.3 Requerimientos funcionales](#433-requerimientos-funcionales)
+    + [4.4 Comunicarse con un profesor](#44-comunicarse-con-un-profesor)
+      - [4.4.1 Descripción](#441-descripción)
+      - [4.4.2 Estímulos / Respuestas](#442-estímulos-respuestas)
+      - [4.4.3 Requerimientos funcionales](#443-requerimientos-funcionales)
+    + [4.5 Reportar un mal funcionamiento de la aplicación](#45-reportar-un-mal-funcionamiento-de-la-aplicación)
+      - [4.5.1 Descripción](#451-descripción)
+      - [4.5.2 Estímulos / Respuestas](#452-estímulos-respuestas)
+      - [4.5.3 Requerimientos funcionales](#453-requerimientos-funcionales)
+  * [5 Otros requerimientos no funcionales](#5-otros-requerimientos-no-funcionales)
+    + [5.1 Requerimientos de rendimiento](#51-requerimientos-de-rendimiento)
+    + [5.2 Requerimientos de seguridad (Safety)](#52-requerimientos-de-seguridad-safety)
+    + [5.3 Requerimientos de seguridad (Security)](#53-requerimientos-de-seguridad-security)
+    + [5.4 Atributos de calidad de software](#54-atributos-de-calidad-de-software)
+    + [5.5 Reglas de negocio](#55-reglas-de-negocio)
+- [Plan de Calidad](#plan-de-calidad)
+  * [1 Identificador del plan de prueba](#1-identificador-del-plan-de-prueba)
+  * [2 Referencias](#2-referencias)
+  * [3 Introducción](#3-introducción)
+  * [4 Elementos de prueba](#4-elementos-de-prueba)
+  * [5 Problemas de riesgo del software](#5-problemas-de-riesgo-del-software)
+  * [6 Funcionalidades a probar](#6-funcionalidades-a-probar)
+  * [7 Funcionalidades que no deben probarse](#7-funcionalidades-que-no-deben-probarse)
+  * [8 Enfoque (estrategia)](#8-enfoque-estrategia)
+  * [9 Criterios de aprobación/falla](#9-criterios-de-aprobación-falla)
+  * [10 Criterios de suspensión y requisitos de reanudación](#10-criterios-de-suspensión-y-requisitos-de-reanudación)
+  * [11 Entregables de prueba](#11-entregables-de-prueba)
+  * [12 Tareas de pruebas restantes](#12-tareas-de-pruebas-restantes)
+  * [13 Necesidades ambientales](#13-necesidades-ambientales)
+  * [14 Necesidades del personal y capacitación](#14-necesidades-del-personal-y-capacitación)
+  * [15 Responsabilidades](#15-responsabilidades)
+  * [16 Calendario](#16-calendario)
+  * [17 Planificación de riesgos y contingencias](#17-planificación-de-riesgos-y-contingencias)
+  * [18 Aprobación](#18-aprobación)
+  * [19 Glosario](#19-glosario)
+- [Arquitectura](#arquitectura)
+- [Metodología](#metodología)
+- [Instrucciones para replicar](#instrucciones-para-replicar)
+- [Presentación](#presentación)
 
 # Requerimientos del Sistema
 
