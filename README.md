@@ -637,6 +637,22 @@ sistemas de reporte de incidentes, recaudación de datos y reporte de resultados
 
 ## 17 Planificación de riesgos y contingencias
 
++ La capacitación del responsable de prueba podría probar ser más complicada de lo estimado. De ser
+  el caso, la entrega del proyecto será retrasada necesariamente.
++ Es posible la revelación de algún problema grave del sistema durante las pruebas, más allá de lo
+  razonablemente esperado. Esto resultaría en un retraso necesario del proyecto, dado que las fallas
+  críticas son inadmisibles y sería necesario asignar tiempo para las correcciones.
++ Alguna de las funcionalidades de baja prioridad podría probar ser más compleja de lo esperado y no
+  cumplir con el periodo de pruebas esperado. En este caso, el producto se entregaría de manera
+  limitada, con la garantía de la entrega de la(s) funcionalidad(es) restantes en un plazo
+  razonable.
++ Debido a restricciones de presupuesto, obtener el equipo suficiente para el cuerpo de pruebas
+  podría ser retrasado. De ser así, el producto sería necesariamente retrasado, ya que no se puede
+  continuar el desarrollo sin el ciclo de pruebas.
++ El manejo inadecuado del equipo de pruebas por parte de el encargado de prueba podría resultar en
+  la insuficiencia del ciclo de prueba. Esto resultará en una degradación de la calidad del
+  producto.
+
 ## 18 Aprobación
 
 La aprobación está sujeta a que los líderes del equipo estén de acuerdo en que se han cumplido todas
