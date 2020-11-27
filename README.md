@@ -243,10 +243,13 @@ ConectaITAM cuenta con las siguientes dependencias:
 ### 4.1 Iniciar sesión 
 
 #### 4.1.1 Descripción
-Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el
-usuario pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con
-una dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de
-la misma.
+
++ **Prioridad:** 1
+
+Esta es la funcionalidad con mayor prioridad en este proyecto porque de esta depende que el usuario
+pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con una
+dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de la
+misma.
 
 #### 4.1.2 Estímulos / Respuestas
 + Estímulo: El usuario ingresa sus credenciales y son correctas.
@@ -264,9 +267,12 @@ usuario será bloqueado temporalmente de su cuenta.
 ### 4.2 Creación de conversaciones grupales
 
 #### 4.2.1 Descripción
+
++ **Prioridad:** 3
+
 Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
 número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
-grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (3).
+grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
 
 #### 4.2.2 Estímulos / Respuestas
 + Estímulo: El alumno seleccionará varios alumnos para añadir al grupo.
@@ -283,7 +289,10 @@ grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (
 ### 4.3 Buscar contacto
 
 #### 4.3.1 Descripción
-Se le asignó una prioridad media (2) a esta funcionalidad, pues es necesaria para la creación de los
+
++ **Prioridad:** 2
+
+Se le asignó una prioridad media a esta funcionalidad, pues es necesaria para la creación de los
 grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener ningún
 otro medio para comunicarse.
 
@@ -302,7 +311,10 @@ otro medio para comunicarse.
 ### 4.4 Comunicarse con un profesor
 
 #### 4.4.1 Descripción
-Esta es una funcionalidad muy importante de la plataforma (1) puesto que, al ser una aplicación
+
++ **Prioridad:** 1
+
+Esta es una funcionalidad muy importante de la plataforma puesto que, al ser una aplicación
 universitaria, la comunicación entre alumnos y profesores es vital.
 
 #### 4.4.2 Estímulos / Respuestas
@@ -319,9 +331,12 @@ universitaria, la comunicación entre alumnos y profesores es vital.
 ### 4.5 Reportar un mal funcionamiento de la aplicación
 
 #### 4.5.1 Descripción
+
++ **Prioridad:** 2
+
 El usuario puede ver un mal funcionamiento de la aplicación y querrá reportarlo para que pueda ser
 arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la aplicación, se
-asigna prioridad media (2).
+asigna prioridad media.
 
 #### 4.5.2 Estímulos / Respuestas
 + Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
