@@ -12,8 +12,6 @@
 - Mónica Hernández Martínez - 163543
 - Piero Vera Stephens - 179915
 
-**Liga:** [ConectaITAM](https://jacquelinelira.github.io/ConectaItam/)
-
 # Índice
 
 
@@ -640,11 +638,19 @@ sistemas de reporte de incidentes, recaudación de datos y reporte de resultados
 
 # Arquitectura
 
-ConectaITAM utiliza una arquitectura por eventos. Las características de la arquitectura para esta
-plataforma ofrecen ventajas sobre las demás arquitecturas, con las menores desventajas. Asimismo, el
-uso que le darán los usuarios a la plataforma será en forma de eventos, puesto que dichos usuarios
-no entablan una comunicación constante con otros usuarios, sino cuando lo demandan, y el sistema
-deberá responder en dicho caso.
+ConectaITAM utiliza una arquitectura por eventos. La razón por la cual escogimos esta
+arquitectura fue por su agilidad y el fácil despliegue de la aplicación. 
+Por otra parte, al ser una aplicación para alrededor de 5 mil usuarios, nos enfocamos en una
+arquitectura que tuviera tanto buen rendimiento como una escabilidad sencilla.
+
+Consideramos que las desventajas principales de esta arquitectura, que son tanto
+el desarollo como las pruebas recaen principalmente sobre los desarrolladores y 
+únicamente en una etapa inicial de la aplicación. Así, estas desventajas compensan las
+grandes ventajas que nos da esta arquitectura.
+
+Asimismo, el uso que le darán los usuarios a la plataforma será en forma de eventos, 
+puesto que dichos usuarios no entablan una comunicación constante con otros usuarios, 
+sino cuando lo demandan, y el sistema deberá responder en dicho caso.
 
 # Metodología
 
