@@ -414,8 +414,7 @@ ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
 
 Los documentos que respaldan este plan de calidad son:
 
-[Plan de proyecto y requerimientos del
-sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
+[Plan de proyecto y requerimientos del sistema](#requerimientos-del-sistema)
 
 ## 3 Introducción
 
