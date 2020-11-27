@@ -243,12 +243,21 @@ ConectaITAM cuenta con las siguientes dependencias:
 ### 4.1 Iniciar sesión 
 
 #### 4.1.1 Descripción
-Esta es la funcionalidad con mayor prioridad (1) en este proyecto porque de esta depende que el
-usuario pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con
-una dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de
-la misma.
+
++ **Prioridad:** 1
+
+Esta es la funcionalidad con mayor prioridad en este proyecto porque de esta depende que el usuario
+pueda hacer uso de las demás funcionalidades. Solamente miembros de la comunidad ITAM con una
+dirección de correo válida podrán crear una cuenta en la plataforma; habrá una verificación de la
+misma.
 
 #### 4.1.2 Estímulos / Respuestas
++ Estímulo: El usuario ingresa sus credenciales y son correctas.
++ Respuesta: El sistema permite el acceso a las demás funcionalidades.
++ Estímulo: El usuario ingresa credenciales incorrectas.
++ Respuesta: El sistema indica que las credenciales son incorrectas. Después de tres intentos, el
+usuario será bloqueado temporalmente de su cuenta.
+
 
 #### 4.1.3 Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
@@ -258,9 +267,12 @@ la misma.
 ### 4.2 Creación de conversaciones grupales
 
 #### 4.2.1 Descripción
+
++ **Prioridad:** 3
+
 Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
 número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
-grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (3).
+grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
 
 #### 4.2.2 Estímulos / Respuestas
 + Estímulo: El alumno seleccionará varios alumnos para añadir al grupo.
@@ -277,7 +289,10 @@ grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (
 ### 4.3 Buscar contacto
 
 #### 4.3.1 Descripción
-Se le asignó una prioridad media (2) a esta funcionalidad, pues es necesaria para la creación de los
+
++ **Prioridad:** 2
+
+Se le asignó una prioridad media a esta funcionalidad, pues es necesaria para la creación de los
 grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener ningún
 otro medio para comunicarse.
 
@@ -296,7 +311,10 @@ otro medio para comunicarse.
 ### 4.4 Comunicarse con un profesor
 
 #### 4.4.1 Descripción
-Esta es una funcionalidad muy importante de la plataforma (1) puesto que, al ser una aplicación
+
++ **Prioridad:** 1
+
+Esta es una funcionalidad muy importante de la plataforma puesto que, al ser una aplicación
 universitaria, la comunicación entre alumnos y profesores es vital.
 
 #### 4.4.2 Estímulos / Respuestas
@@ -313,9 +331,12 @@ universitaria, la comunicación entre alumnos y profesores es vital.
 ### 4.5 Reportar un mal funcionamiento de la aplicación
 
 #### 4.5.1 Descripción
+
++ **Prioridad:** 2
+
 El usuario puede ver un mal funcionamiento de la aplicación y querrá reportarlo para que pueda ser
 arreglado. Por ser una funcionalidad que reportará sobre el buen funcionamiento de la aplicación, se
-asigna prioridad media (2).
+asigna prioridad media.
 
 #### 4.5.2 Estímulos / Respuestas
 + Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
@@ -412,8 +433,7 @@ ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
 
 Los documentos que respaldan este plan de calidad son:
 
-[Plan de proyecto y requerimientos del
-sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
+[Plan de proyecto y requerimientos del sistema](#requerimientos-del-sistema)
 
 ## 3 Introducción
 
@@ -455,17 +475,19 @@ Las áreas críticas del sistema ConectaITAM son:
 
 ## 6 Funcionalidades a probar
 
-+ Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
-+ Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
-+ Como estudiante/profesor quiero crear una nueva conversación.
-+ Como estudiante/profesor quiero buscar a un usuario.
-+ Como estudiante quiero crear un subgrupo de una materia.
-+ Como estudiante/profesor quiero gestionar mis conversaciones.
-+ Como estudiante/profesor quiero reportar a un usuario.
-+ Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
-+ Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
-  académicos.
-+ Como estudiante/profesor quiero compartir un archivo multimedia.
+A cada funcionalidad se le asigna un riesgo en el rango de 1 a 3, siendo 1 el mayor riesgo y 3 el
+menor.
+
++ (1) Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
++ (2) Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
++ (3) Como estudiante/profesor quiero crear una nueva conversación.
++ (3) Como estudiante/profesor quiero buscar a un usuario.
++ (3) Como estudiante quiero crear un subgrupo de una materia.
++ (2) Como estudiante/profesor quiero gestionar mis conversaciones.
++ (2) Como estudiante/profesor quiero reportar a un usuario.
++ (3) Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
++ (2) Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
++ (1) Como estudiante/profesor quiero compartir un archivo multimedia.
 
 ## 7 Funcionalidades que no deben probarse
 
@@ -477,6 +499,26 @@ Las siguientes funciones no serán sometidas a pruebas.
 
 ## 8 Enfoque (estrategia)
 
++ Se realizarán las pruebas de la siguiente manera:
+  + Se tendrá una lista de funcionalidades a probar, con el resultado esperado.
+  + El encargado de prueba deberá crear los escenarios de prueba para los _testers_.
+  + Los _testers_ deberán reportar el resultado con aprobado, fallado u omitido.
+  + Los _testers_ podrán indicar notas adicionales relevantes a las pruebas.
++ Las pruebas se realizarán de forma unitaria, en tanto se hagan disponibles las funcionalidades.
++ Adicionalmente, habrá una prueba final que consista en evaluar la plataforma como un sistema
+  integrado.
++ Se utilizarán las siguientes métricas dentro de la plataforma:
+  + Tipos de archivos multimedia enviados.
+  + Tiempo utilizado por funcionalidad a probar.
+  + Mensajes enviados por hora.
+  + Utilización del chatbot.
++ Ante pruebas fallidas, se crearán _bug reports_ para su pronta atención, dependiendo de la
+  severidad del problema reportado.
++ Los resultados de las pruebas se deberán discutir con el equipo una vez que los presente el
+  encargado de pruebas, y con base en la prioridad de las funcionalidades, se realizarán los cambios
+  pertinentes.
++ En caso de haber una falla de seguridad, se hará referencia a los riesgos de cada funcionalidad
+  para determinar la prioridad de los cambios.
 + La plataforma debe probarse en Windows, MacOS y Linux, así como en los navegadores web más
   populares (Chrome, Firefox, Safari y Opera).
 
@@ -509,13 +551,66 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
 
 ## 11 Entregables de prueba
 
+Los entregables considerados en este plan son los siguientes:
+
++ Plan de prueba
++ Especificaciones del diseño de pruebas
++ Especificaciones de casos de prueba
++ Especificaciones de los procedimientos de prueba
++ *Logs* de pruebas y métricas
++ Reportes de incidentes de pruebas
++ Informes resumidos sobre las pruebas
+
 ## 12 Tareas de pruebas restantes
+
+Para los entregables del punto anterior, se deberán cumplir las siguientes tareas:
+
++ Preparación del plan de pruebas.
++ Revisión y modificación, en caso de ser necesario, de los escenarios de pruebas.
++ Preparación del entorno de pruebas, de acuerdo al punto siguiente.
++ Asignación aleatoria de pruebas a los _testers_.
++ Indicación a los _testers_ de qué áreas de la plataforma se deben probar y cuáles aún no (pruebas
+  unitarias parciales). En su caso, se indicará que la prueba es para toda la plataforma.
++ Recabación de datos durante y después de las pruebas, tanto de métricas como de los _testers_
+  directamente. 
++ Registro de incidentes durante las pruebas al sistema.
++ Contraste con resultados esperados de cada prueba.
++ Preparación del informe de resultados de las pruebas.
 
 ## 13 Necesidades ambientales
 
+Para llevar a cabo las pruebas, es necesario que los _testers_ cuenten con todos los sistemas
+operativos y los buscadores instalados que se desean probar. Para estos, se utilizarán las versiones
+más recientes únicamente. Es posible que los sistemas operativos estén instalados en máquinas
+virtuales. Los resultados de las pruebas se originarán de las métricas, así como de lo indicado por
+los _testers_ según el punto 8 de este documento. Las computadoras necesitarán únicamente de una
+conexión de internet normal. Los _testers_, adicionalmente, requerirán de cuentas de prueba en un
+entorno independiente al de producción dentro de la plataforma.
+
 ## 14 Necesidades del personal y capacitación
 
+La capacitación del personal de pruebas deberá ser la misma que recibirán los alumnos. En caso de no
+tener habilidades tecnológicas, se deberá capacitar a dichos _testers_ mediante una instrucción
+razonablemente reproducible por el ITAM para sus alumnos. Todos los _testers_ recibirán el manual de
+usuario que se distruibuirá a los alumnos y se les dará un tiempo razonable, pero corto, para
+familiarizarse con él. Se limitará a las áreas de la plataforma relevantes a la prueba en curso. Los
+_testers_ no requerirán utilizar ninguna herramienta en especial; las métricas se recaudarán
+automáticamente y las notas serán escritas. El encargado de prueba deberá poder utilizar los
+sistemas de reporte de incidentes, recaudación de datos y reporte de resultados.
+
 ## 15 Responsabilidades
+
++ El encargado de prueba será responsable de:
+  + la coordinación y elaboración apropiada de todas las pruebas, en tanto sean asignadas y
+  aprobadas conjuntamente con el equipo de desarrollo.
+  + asegurarse que los _testers_ estén apropiadamente equipados y capacitados para realizar las
+  pruebas bajo las condiciones especificadas.
+  + comunicar los resultados y los incidentes durante las pruebas al equipo de desarrollo.
++ El equipo será responsable de:
+  + asegurarse que el encargado reciba la capacitación relevante a la plataforma que sea necesaria
+	para llevar a cabo el proceso de pruebas y la capacitación de sus _testers_.
++ Los _testers_ serán responsables de:
+  + realizar las pruebas de acuerdo a las expectativas y las indicaciones que reciban.
 
 ## 16 Calendario
 
@@ -546,20 +641,41 @@ fáciles de detectar, dado que los cambios desde el último incremento son relat
 
 # Instrucciones para replicar
 
-La liga para el proyecto se encuentra en [en esta liga](https://jacquelinelira.github.io/ConectaItam/).
+La liga para el proyecto se encuentra en [en esta
+liga](https://jacquelinelira.github.io/ConectaItam/).
 
-1) Para iniciar sesión se utilizan los siguientes datos:
-   Usuario: yo 
-   Contraseña: pass
-2) Una vez en la pantilla de inicio, se presiona sobre el texto "Aprendizaje de Maquina", que redirige al chat de ese grupo.
-3) Al agregar un texto en el campo de texto y presionar el botón aparecerá en la pantalla del chat. (Nota: El texto que aparece es predeterminado).
-4) Se seleccionan los ... a lado izquierdo del campo de texto y se selecciona la opción Subir documento.
-5) Al pasar el ratón sobre la sección de arrastrar y soltar se "cargan" los archivos arrastrados y se presiona el botón "Subir".
-6) Se seleccionan los ... de nuevo y se selecciona la opción Crear subgrupo.
-7) Se llenan los campos de nombre y descripción, se seleccionan los miembros que se van a agregar (Gandolfo Garibay y Jorge Rosado) y se aprieta el botón "Crear grupo"
-8) Se aprieta el botón del robot (que se encuentra en la parte superior derecha de la pantalla).
-9) Se le pregunta al chatbot por la calificación de Aprendizaje, a lo cual el chatbot le responde.
-10) Se pide agendar una cita con Becas, a lo cual el chatbot le da la opción de que días se pueden. (Se elige la opción 1).
+1. Para iniciar sesión se utilizan los siguientes datos: 
+   + Usuario: yo 
+   + Contraseña: pass 
+   
+2. Una vez en la pantilla de inicio, se hace _click_ sobre el texto "Aprendizaje
+   de Maquina", el cual redirige al chat de ese grupo.
+   
+3. Al agregar un texto en el campo de texto y presionar el botón, éste aparecerá
+   en la pantalla del chat. Nota: El texto que aparece es predeterminado.
+   
+4. Se hace _click_ en los "..." a lado izquierdo del campo de texto y se
+   selecciona la opción "Subir documento".
+   
+5. Al pasar el ratón sobre la sección de arrastrar y soltar, se "cargan" los
+   archivos arrastrados y se presiona el botón "Subir" para guardarlos en la
+   plataforma.
+   
+6. Se hace _click_ en los "..." de nuevo y se selecciona la opción "Crear
+   subgrupo".
+   
+7. Se llenan los campos de nombre y descripción, se seleccionan los miembros que
+   se van a agregar (Gandolfo Garibay y Jorge Rosado) y se presiona el botón
+   "Crear grupo"
+
+8. Se presiona el botón del robot, el cual se encuentra en la parte superior derecha
+   de la pantalla.
+   
+9. Se le pregunta al chatbot por la calificación de "Aprendizaje", a lo cual el
+   chatbot le responde.
+   
+10. Se pide agendar una cita con "Becas", a lo cual el chatbot le da al usuario
+   la opción de que días están disponibles (se elige la opción 1).
 
 # Presentación
 
