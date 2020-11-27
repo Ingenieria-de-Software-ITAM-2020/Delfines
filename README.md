@@ -639,6 +639,12 @@ sistemas de reporte de incidentes, recaudación de datos y reporte de resultados
 
 ## 18 Aprobación
 
+La aprobación está sujeta a que los líderes del equipo estén de acuerdo en que se han cumplido todas
+las expectativas del producto, así como que la etapa de desarrollo relevante haya concluído y se
+pueda continuar a la siguiente. Además, la aprobación final está sujeta a que el ITAM concuerde con
+que se cumplen las políticas de la institución en todas las competencias aplicables, definidas
+anteriormente en el documento de requerimientos.
+
 ## 19 Glosario
 
 # Arquitectura
