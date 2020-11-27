@@ -547,6 +547,13 @@ Los entregables considerados en este plan son los siguientes:
 
 ## 13 Necesidades ambientales
 
+Para llevar a cabo las pruebas, es necesario que los _testers_ cuenten con todos los sistemas
+operativos y los buscadores instalados que se desean probar. Para estos, se utilizarán las versiones
+más recientes únicamente. Es posible que los sistemas operativos estén instalados en máquinas
+virtuales. Los resultados de las pruebas se originarán de las métricas, así como de lo indicado por
+los _testers_ según el punto 8 de este documento. Las computadoras necesitarán únicamente de una
+conexión de internet normal.
+
 ## 14 Necesidades del personal y capacitación
 
 ## 15 Responsabilidades
