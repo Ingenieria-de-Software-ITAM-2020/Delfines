@@ -418,8 +418,7 @@ ComunicaITAM\_1.0\_Testing\_Y4M3A8URR1
 
 Los documentos que respaldan este plan de calidad son:
 
-[Plan de proyecto y requerimientos del
-sistema](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/README.md#1-requerimientos-del-sistema)
+[Plan de proyecto y requerimientos del sistema](#requerimientos-del-sistema)
 
 ## 3 Introducción
 
@@ -461,17 +460,19 @@ Las áreas críticas del sistema ConectaITAM son:
 
 ## 6 Funcionalidades a probar
 
-+ Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
-+ Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
-+ Como estudiante/profesor quiero crear una nueva conversación.
-+ Como estudiante/profesor quiero buscar a un usuario.
-+ Como estudiante quiero crear un subgrupo de una materia.
-+ Como estudiante/profesor quiero gestionar mis conversaciones.
-+ Como estudiante/profesor quiero reportar a un usuario.
-+ Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
-+ Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
-  académicos.
-+ Como estudiante/profesor quiero compartir un archivo multimedia.
+A cada funcionalidad se le asigna un riesgo en el rango de 1 a 3, siendo 1 el mayor riesgo y 3 el
+menor.
+
++ (1) Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
++ (2) Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
++ (3) Como estudiante/profesor quiero crear una nueva conversación.
++ (3) Como estudiante/profesor quiero buscar a un usuario.
++ (3) Como estudiante quiero crear un subgrupo de una materia.
++ (2) Como estudiante/profesor quiero gestionar mis conversaciones.
++ (2) Como estudiante/profesor quiero reportar a un usuario.
++ (3) Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
++ (2) Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
++ (1) Como estudiante/profesor quiero compartir un archivo multimedia.
 
 ## 7 Funcionalidades que no deben probarse
 
@@ -483,6 +484,23 @@ Las siguientes funciones no serán sometidas a pruebas.
 
 ## 8 Enfoque (estrategia)
 
++ Se realizarán las pruebas de la siguiente manera:
+  + Se tendrá una lista de funcionalidades a probar, con el resultado esperado.
+  + El encargado de prueba deberá crear los escenarios de prueba para los _testers_.
+  + Los _testers_ deberán reportar el resultado con aprobado, fallado u omitido.
+  + Los _testers_ podrán indicar notas adicionales relevantes a las pruebas.
++ Se utilizarán las siguientes métricas dentro de la plataforma:
+  + Tipos de archivos multimedia enviados.
+  + Tiempo utilizado por funcionalidad a probar.
+  + Mensajes enviados por hora.
+  + Utilización del chatbot.
++ Ante pruebas fallidas, se crearán _bug reports_ para su pronta atención, dependiendo de la
+  severidad del problema reportado.
++ Los resultados de las pruebas se deberán discutir con el equipo una vez que los presente el
+  encargado de pruebas, y con base en la prioridad de las funcionalidades, se realizarán los cambios
+  pertinentes.
++ En caso de haber una falla de seguridad, se hará referencia a los riesgos de cada funcionalidad
+  para determinar la prioridad de los cambios.
 + La plataforma debe probarse en Windows, MacOS y Linux, así como en los navegadores web más
   populares (Chrome, Firefox, Safari y Opera).
 
@@ -560,14 +578,23 @@ fáciles de detectar, dado que los cambios desde el último incremento son relat
 
 # Instrucciones para replicar
 
-La liga para el proyecto se encuentra en [en esta liga](https://jacquelinelira.github.io/ConectaItam/).
+La liga para el proyecto se encuentra en [en esta
+liga](https://jacquelinelira.github.io/ConectaItam/).
 
-Al iniciar sesión se utiliza los siguientes datos:
-
-Usuario: yo 
-
-Contraseña: pass
-
+1) Para iniciar sesión se utilizan los siguientes datos: Usuario: yo Contraseña: pass 2) Una vez en
+   la pantilla de inicio, se presiona sobre el texto "Aprendizaje de Maquina", que redirige al chat
+   de ese grupo.  3) Al agregar un texto en el campo de texto y presionar el botón aparecerá en la
+   pantalla del chat. (Nota: El texto que aparece es predeterminado).  4) Se seleccionan los ... a
+   lado izquierdo del campo de texto y se selecciona la opción Subir documento.  5) Al pasar el
+   ratón sobre la sección de arrastrar y soltar se "cargan" los archivos arrastrados y se presiona
+   el botón "Subir".  6) Se seleccionan los ... de nuevo y se selecciona la opción Crear subgrupo.
+   7) Se llenan los campos de nombre y descripción, se seleccionan los miembros que se van a agregar
+   (Gandolfo Garibay y Jorge Rosado) y se aprieta el botón "Crear grupo" 8) Se aprieta el botón del
+   robot (que se encuentra en la parte superior derecha de la pantalla).  9) Se le pregunta al
+   chatbot por la calificación de Aprendizaje, a lo cual el chatbot le responde.  10) Se pide
+   agendar una cita con Becas, a lo cual el chatbot le da la opción de que días se pueden. (Se elige
+   la opción 1).
+   
 # Presentación
 
 Podrá encontrar la presentación del proyecto final [aquí]()
