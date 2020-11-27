@@ -589,7 +589,28 @@ entorno independiente al de producción dentro de la plataforma.
 
 ## 14 Necesidades del personal y capacitación
 
+La capacitación del personal de pruebas deberá ser la misma que recibirán los alumnos. En caso de no
+tener habilidades tecnológicas, se deberá capacitar a dichos _testers_ mediante una instrucción
+razonablemente reproducible por el ITAM para sus alumnos. Todos los _testers_ recibirán el manual de
+usuario que se distruibuirá a los alumnos y se les dará un tiempo razonable, pero corto, para
+familiarizarse con él. Se limitará a las áreas de la plataforma relevantes a la prueba en curso. Los
+_testers_ no requerirán utilizar ninguna herramienta en especial; las métricas se recaudarán
+automáticamente y las notas serán escritas. El encargado de prueba deberá poder utilizar los
+sistemas de reporte de incidentes, recaudación de datos y reporte de resultados.
+
 ## 15 Responsabilidades
+
++ El encargado de prueba será responsable de:
+  + la coordinación y elaboración apropiada de todas las pruebas, en tanto sean asignadas y
+  aprobadas conjuntamente con el equipo de desarrollo.
+  + asegurarse que los _testers_ estén apropiadamente equipados y capacitados para realizar las
+  pruebas bajo las condiciones especificadas.
+  + comunicar los resultados y los incidentes durante las pruebas al equipo de desarrollo.
++ El equipo será responsable de:
+  + asegurarse que el encargado reciba la capacitación relevante a la plataforma que sea necesaria
+	para llevar a cabo el proceso de pruebas y la capacitación de sus _testers_.
++ Los _testers_ serán responsables de:
+  + realizar las pruebas de acuerdo a las expectativas y las indicaciones que reciban.
 
 ## 16 Calendario
 
