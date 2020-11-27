@@ -671,17 +671,15 @@ anteriormente en el documento de requerimientos.
 
 # Arquitectura
 
-ConectaITAM utiliza una arquitectura mixta entre capas y eventos. Optamos por agregar la arquitectura por eventos 
-ya que en la aplicación se hace uso de un chatbot para brindar información a los alumnos.
+ConectaITAM utiliza una arquitectura mixta entre capas y eventos. La arquitectura por eventos se utiliza en la aplicación 
+al hacerse uso de un chatbot para brindar información a los alumnos.
 
-La arquitectura por capas fue escogida sobre la arquitectura de microservicios, ya que no nos vimos en la necesidad
-de utilizar todos los beneficios que nos brinda microservicios, no creemos necesario el uso esta arquitura para la 
-complejidad y tamaño del proyecto. Sentimos que la arquitectura por capas nos dará un buen rendimiento con la especulación
-de tener la capacidad para aproximadamente 5 mil usuarios activos.
+Para la página principal se eligió la arquitectura por capas ya que consideramos que la facilidad para hacer pruebas y para 
+desarollar era más benéfico que la escalabilidad u otros beneficios que ofrecen otras arquitecturas.
 
 Consideramos que las desventajas de la arquitectua por capas son principalmente la escalabilidad y la facilidad de despliegue, pero
-no creemos que nuestra aplicación vaya a recibir constantemente cambios en las reglas de negocio, así como también previsualizamos
-un periodo de 5 años donde la cantidad de alumnos del ITAM se mantendrá en el rango de los aproximadamente +5 mil usuarios.
+no creemos que nuestra aplicación vaya a recibir cambios en las reglas de negocio de manera constante. Además de esto, creemos que 
+la cantidad de alumnos del ITAM se mantendrá en un rango de aproximadamente 6 mil usuarios activos.
 
 # Metodología
 
