@@ -683,19 +683,15 @@ anteriormente en el documento de requerimientos.
 
 # Arquitectura
 
-ConectaITAM utiliza una arquitectura por eventos. La razón por la cual escogimos esta
-arquitectura fue por su agilidad y el fácil despliegue de la aplicación. 
-Por otra parte, al ser una aplicación para alrededor de 5 mil usuarios, nos enfocamos en una
-arquitectura que tuviera tanto buen rendimiento como una escabilidad sencilla.
+ConectaITAM utiliza una arquitectura mixta entre capas y eventos. La arquitectura por eventos se utiliza en la aplicación 
+al hacerse uso de un chatbot para brindar información a los alumnos.
 
-Consideramos que las desventajas principales de esta arquitectura, que son tanto
-el desarollo como las pruebas recaen principalmente sobre los desarrolladores y 
-únicamente en una etapa inicial de la aplicación. Así, estas desventajas compensan las
-grandes ventajas que nos da esta arquitectura.
+Para la página principal se eligió la arquitectura por capas ya que consideramos que la facilidad para hacer pruebas y para 
+desarollar era más benéfico que la escalabilidad u otros beneficios que ofrecen otras arquitecturas.
 
-Asimismo, el uso que le darán los usuarios a la plataforma será en forma de eventos, 
-puesto que dichos usuarios no entablan una comunicación constante con otros usuarios, 
-sino cuando lo demandan, y el sistema deberá responder en dicho caso.
+Consideramos que las desventajas de la arquitectua por capas son principalmente la escalabilidad y la facilidad de despliegue, pero
+no creemos que nuestra aplicación vaya a recibir cambios en las reglas de negocio de manera constante. Además de esto, creemos que 
+la cantidad de alumnos del ITAM se mantendrá en un rango de aproximadamente 6 mil usuarios activos.
 
 # Metodología
 
@@ -706,13 +702,13 @@ analizarla sin tener que invertir demasiados recursos.
 
 # Casos de Uso
 Caso 1: Un alumno quiere subir un documento a un grupo.
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/subir-documento.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/subir%20documento.PNG)
 
 Caso 2: Un alumno crea un nuevo grupo dentro de una materia.
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear-grupo.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear%20grupo.PNG)
 
 Caso 3: Un alumno quiere agendar una cita con el chatbot
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear_cita.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear%20cita.PNG)
 
 # Instrucciones para replicar
 
