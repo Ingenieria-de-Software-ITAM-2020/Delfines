@@ -230,6 +230,7 @@ la misma.
 
 #### 4.1.3 Requerimientos funcionales
 + **REQ-1**: La plataforma deberá contar con un sistema para la verificación de correo.
+
 + **REQ-2**: Debe existir un sistema de búsqueda siempre accesible al usuario.
 
 ### 4.2 Creación de conversaciones grupales
@@ -240,10 +241,15 @@ número de herramientas para comunicarse entre sí. Sin embargo, es importante p
 grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja (3).
 
 #### 4.2.2 Estímulos / Respuestas
++ Estímulo: El alumno seleccionará varios alumnos para añadir al grupo.
+
++ Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
+   aceptaren.
 
 #### 4.2.3 Requerimientos funcionales
 + **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
   ConectaITAM.
+  
 + **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
 
 ### 4.3 Buscar contacto
@@ -254,11 +260,16 @@ grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso d
 otro medio para comunicarse.
 
 #### 4.3.2 Estímulos / Respuestas
++ Estímulo: El alumno introducirá el nombre del contacto que quiere buscar.
+
++ Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
+   aceptaren.
 
 #### 4.3.3 Requerimientos funcionales
 + **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
   la búsqueda.
-+ **REQ-2**: 
+  
++ **REQ-2**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
 
 ### 4.4 Comunicarse con un profesor
 
@@ -274,7 +285,8 @@ universitaria, la comunicación entre alumnos y profesores es vital.
 #### 4.4.3 Requerimientos funcionales
 + **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
   quiere comunicarse.
-+ **REQ-2**: 
+  
++ **REQ-2**: De no ser horario laboral, quedará a decisión del profesor recibir estos mensajes.
 
 ### 4.5 Reportar un mal funcionamiento de la aplicación
 
@@ -285,12 +297,13 @@ asigna prioridad media (2).
 
 #### 4.5.2 Estímulos / Respuestas
 + Estímulo: El usuario nota que una funcionalidad está fallando, decide levantar un reporte con el botón de
-reporte. 
+reporte y una breve descripción. 
 
 + Respuesta: El sistema registra este reporte y se manda un mensaje de confirmación y agradecimiento.
 
 #### 4.5.3 Requerimientos funcionales
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
+
 + **REQ-2**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
 
 ## 5 Otros requerimientos no funcionales
@@ -420,20 +433,17 @@ Las áreas críticas del sistema ConectaITAM son:
 
 ## 6 Funcionalidades a probar
 
-A cada funcionalidad se le asigna un riesgo en el rango de 1 a 3, siendo 1 el mayor riesgo y 3 el
-menor.
-
-+ (1) Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
-+ (2) Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
-+ (3) Como estudiante/profesor quiero crear una nueva conversación.
-+ (3) Como estudiante/profesor quiero buscar a un usuario.
-+ (3) Como estudiante quiero crear un subgrupo de una materia.
-+ (2) Como estudiante/profesor quiero gestionar mis conversaciones.
-+ (2) Como estudiante/profesor quiero reportar a un usuario.
-+ (3) Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
-+ (2) Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
++ Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
++ Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
++ Como estudiante/profesor quiero crear una nueva conversación.
++ Como estudiante/profesor quiero buscar a un usuario.
++ Como estudiante quiero crear un subgrupo de una materia.
++ Como estudiante/profesor quiero gestionar mis conversaciones.
++ Como estudiante/profesor quiero reportar a un usuario.
++ Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
++ Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
   académicos.
-+ (1) Como estudiante/profesor quiero compartir un archivo multimedia.
++ Como estudiante/profesor quiero compartir un archivo multimedia.
 
 ## 7 Funcionalidades que no deben probarse
 
