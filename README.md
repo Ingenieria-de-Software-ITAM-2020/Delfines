@@ -532,7 +532,9 @@ Las pruebas para el sistema ConectaITAM deberán detenerse inmediatemente si:
   defectos).
 
 ## 11 Entregables de prueba
+
 Los entregables considerados en este plan son los siguientes:
+
 + Plan de prueba
 + Especificaciones del diseño de pruebas
 + Especificaciones de casos de prueba
