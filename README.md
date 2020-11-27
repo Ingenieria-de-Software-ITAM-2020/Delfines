@@ -694,13 +694,13 @@ analizarla sin tener que invertir demasiados recursos.
 
 # Casos de Uso
 Caso 1: Un alumno quiere subir un documento a un grupo.
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/subir-documento.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/subir%20documento.PNG)
 
 Caso 2: Un alumno crea un nuevo grupo dentro de una materia.
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear-grupo.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear%20grupo.PNG)
 
 Caso 3: Un alumno quiere agendar una cita con el chatbot
-![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear_cita.png)
+![](https://github.com/Ingenieria-de-Software-ITAM-2020/Delfines/blob/main/crear%20cita.PNG)
 
 # Instrucciones para replicar
 
