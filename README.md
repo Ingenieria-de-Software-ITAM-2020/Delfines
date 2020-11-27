@@ -12,6 +12,8 @@
 - Mónica Hernández Martínez - 163543
 - Piero Vera Stephens - 179915
 
+**Liga:** [ConectaITAM](https://jacquelinelira.github.io/ConectaItam/)
+
 # Índice
 
 
