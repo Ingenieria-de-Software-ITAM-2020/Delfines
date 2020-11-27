@@ -457,17 +457,19 @@ Las áreas críticas del sistema ConectaITAM son:
 
 ## 6 Funcionalidades a probar
 
-+ Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
-+ Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
-+ Como estudiante/profesor quiero crear una nueva conversación.
-+ Como estudiante/profesor quiero buscar a un usuario.
-+ Como estudiante quiero crear un subgrupo de una materia.
-+ Como estudiante/profesor quiero gestionar mis conversaciones.
-+ Como estudiante/profesor quiero reportar a un usuario.
-+ Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
-+ Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
-  académicos.
-+ Como estudiante/profesor quiero compartir un archivo multimedia.
+A cada funcionalidad se le asigna un riesgo en el rango de 1 a 3, siendo 1 el mayor riesgo y 3 el
+menor.
+
++ (1) Como estudiante/profesor quiero ingresar al sistema ConectaITAM.
++ (2) Como estudiante/profesor quiero visualizar y entrar a mis conversaciones.
++ (3) Como estudiante/profesor quiero crear una nueva conversación.
++ (3) Como estudiante/profesor quiero buscar a un usuario.
++ (3) Como estudiante quiero crear un subgrupo de una materia.
++ (2) Como estudiante/profesor quiero gestionar mis conversaciones.
++ (2) Como estudiante/profesor quiero reportar a un usuario.
++ (3) Como estudiante/profesor quiero enviar un mensaje a una conversación ya creada.
++ (2) Como estudiante quiero conversar con el _chatbot_ de servicios escolares y departamentos
++ (1) Como estudiante/profesor quiero compartir un archivo multimedia.
 
 ## 7 Funcionalidades que no deben probarse
 
