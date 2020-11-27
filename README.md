@@ -232,11 +232,27 @@ ConectaITAM cuenta con las siguientes dependencias:
 
 ### 3.1 Interfaces de usuario
 
+La interfaz de usuario será muy intuitiva y agradable hacia el usuario. Será similar en
+funcionamiento a otras aplicaciones que los alumnos han usado en el pasado.
+
 ### 3.2 Interfaces de hardware
+
+Esta aplicación está orientada a los navegadores en ordenadores con sistemas operativos MacOS (OS X
+10.10 o superior), Windows(Windows 7 o superior) y Linux.  Sin embargo, también funcionará en
+dispositivos móviles Android (Pie o superior) y iOS (13 o superior)
 
 ### 3.3 Interfaces de software
 
+El software necesario será alguno de los navegadores más populares tales como 
++ Chrome (version 87.0.4280.66 o superior), 
++ Firefox (version 81.0 o superior), 
++ Safari (Release 91 o superior)
++ Opera (Opera 63 o superior).
+
 ### 3.4 Interfaces de comunicaciones
+
+Para que ConectaITAM funcione, es necesaria una conexión estable a internet con 10Mbps de *download*
+y 2Mbps de *upload* o más.
 
 ## 4 Funcionalidades del sistema
 
