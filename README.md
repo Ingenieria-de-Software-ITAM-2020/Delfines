@@ -479,6 +479,23 @@ Las siguientes funciones no serán sometidas a pruebas.
 
 ## 8 Enfoque (estrategia)
 
++ Se realizarán las pruebas de la siguiente manera:
+  + Se tendrá una lista de funcionalidades a probar, con el resultado esperado.
+  + El encargado de prueba deberá crear los escenarios de prueba para los _testers_.
+  + Los _testers_ deberán reportar el resultado con aprobado, fallado u omitido.
+  + Los _testers_ podrán indicar notas adicionales relevantes a las pruebas.
++ Se utilizarán las siguientes métricas dentro de la plataforma:
+  + Tipos de archivos multimedia enviados.
+  + Tiempo utilizado por funcionalidad a probar.
+  + Mensajes enviados por hora.
+  + Utilización del chatbot.
++ Ante pruebas fallidas, se crearán _bug reports_ para su pronta atención, dependiendo de la
+  severidad del problema reportado.
++ Los resultados de las pruebas se deberán discutir con el equipo una vez que los presente el
+  encargado de pruebas, y con base en la prioridad de las funcionalidades, se realizarán los cambios
+  pertinentes.
++ En caso de haber una falla de seguridad, se hará referencia a los riesgos de cada funcionalidad
+  para determinar la prioridad de los cambios.
 + La plataforma debe probarse en Windows, MacOS y Linux, así como en los navegadores web más
   populares (Chrome, Firefox, Safari y Opera).
 
