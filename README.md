@@ -284,70 +284,37 @@ usuario será bloqueado temporalmente de su cuenta.
 
 + **REQ-2**: Debe existir un sistema de búsqueda siempre accesible al usuario.
 
-### 4.2 Creación de conversaciones grupales
+### 4.2 Enviar mensajes individuales
 
 #### 4.2.1 Descripción
-
-+ **Prioridad:** 3
-
-Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
-número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
-grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
-
 #### 4.2.2 Estímulos / Respuestas
-+ Estímulo: El alumno selecciona varios alumnos entre sus contactos para añadir al grupo.
-
-+ Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
-   aceptaren.
-
 #### 4.2.3 Requerimientos funcionales
-+ **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
-  ConectaITAM.
-  
-+ **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
 
-### 4.3 Buscar contacto
+### 4.3 Comunicarse con un profesor
 
 #### 4.3.1 Descripción
-
-+ **Prioridad:** 2
-
-Se le asignó una prioridad media a esta funcionalidad, pues es necesaria para la creación de los
-grupos. Asimismo, es importante que un alumno pueda buscar un contacto en caso de no tener ningún
-otro medio para comunicarse.
-
-#### 4.3.2 Estímulos / Respuestas
-+ Estímulo: El alumno introduce el nombre o dirección de correo electrónico del contacto que quiere
-  buscar.
-
-+ Respuesta: El sistema desplegará una lista de alumnos que coincidan con los parámetros
-  introducidos por el usuario.
-
-#### 4.3.3 Requerimientos funcionales
-+ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
-  la búsqueda.
-  
-+ **REQ-2**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
-
-### 4.4 Comunicarse con un profesor
-
-#### 4.4.1 Descripción
 
 + **Prioridad:** 1
 
 Esta es una funcionalidad muy importante de la plataforma puesto que, al ser una aplicación
 universitaria, la comunicación entre alumnos y profesores es vital.
 
-#### 4.4.2 Estímulos / Respuestas
+#### 4.3.2 Estímulos / Respuestas
 + Estímulo: El alumno selecciona un profesor para mandarle un mensaje.
 
 + Respuesta: El sistema enviará el mensaje junto con una notificación al profesor seleccionado.
 
-#### 4.4.3 Requerimientos funcionales
+#### 4.3.3 Requerimientos funcionales
 + **REQ-1**: El alumno debe estar inscrito en al menos una materia con el profesor con el cual
   quiere comunicarse.
   
 + **REQ-2**: De no ser horario laboral, quedará a decisión del profesor recibir estos mensajes.
+
+### 4.4 Subir archivos multimedia
+
+#### 4.4.1 Descripción
+#### 4.4.2 Estímulos / Respuestas
+#### 4.4.3 Requerimientos funcionales
 
 ### 4.5 Reportar un mal funcionamiento de la aplicación
 
@@ -369,6 +336,51 @@ reporte y una breve descripción.
 + **REQ-1**: Debe haber un botón apropiado para realizar esta acción.
 
 + **REQ-2**: El sistema debe tener una base de datos para los reportes de mal funcionamientos.
+
+### 4.6 Buscar contacto
+
+#### 4.6.1 Descripción
+
++ **Prioridad:** 3
+
+Se le asignó una prioridad baja a esta funcionalidad, pues no es necesaria para la creación de los
+grupos predefinidos, únicamente para grupos arbitrarios. Sin embargo, es importante que un alumno
+pueda buscar un contacto en caso de no tener ningún otro medio para comunicarse.
+
+#### 4.6.2 Estímulos / Respuestas
++ Estímulo: El alumno introduce el nombre o dirección de correo electrónico del contacto que quiere
+  buscar.
+
++ Respuesta: El sistema desplegará una lista de alumnos que coincidan con los parámetros
+  introducidos por el usuario.
+
+#### 4.6.3 Requerimientos funcionales
++ **REQ-1**: El sistema debe desplegar, en orden descendiente por grupos en común, los resultados de
+  la búsqueda.
+  
++ **REQ-2**: Se desplegará un mensaje adecuado con respecto a los resultados de la búsqueda.
+
+### 4.7 Creación de conversaciones grupales
+
+#### 4.7.1 Descripción
+
++ **Prioridad:** 3
+
+Esta no es una función tan relevante para nuestro sistema dado que los alumnos ya tienen un gran
+número de herramientas para comunicarse entre sí. Sin embargo, es importante para los proyectos
+grupales y otras comunicaciones. Por esta razón, se le dio una prioridad baja.
+
+#### 4.7.2 Estímulos / Respuestas
++ Estímulo: El alumno selecciona varios alumnos entre sus contactos para añadir al grupo.
+
++ Respuesta: El sistema generará el grupo e integrará a los alumnos seleccionados en caso de que estos
+   aceptaren.
+
+#### 4.7.3 Requerimientos funcionales
++ **REQ-1**: Los alumnos que sean invitados a la conversación grupal tendrán que existir en
+  ConectaITAM.
+  
++ **REQ-2**: Deberá existir una categoría de conversación grupal en la plataforma.
 
 ## 5 Otros requerimientos no funcionales
 
