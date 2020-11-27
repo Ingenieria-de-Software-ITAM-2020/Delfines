@@ -546,8 +546,7 @@ fáciles de detectar, dado que los cambios desde el último incremento son relat
 
 # Instrucciones para replicar
 
-La liga para el proyecto se encuentra en [en esta
-liga]([https://jacquelinelira.github.io/ConectaItam/). 
+La liga para el proyecto se encuentra en [en esta liga](https://jacquelinelira.github.io/ConectaItam/).
 
 Al iniciar sesión se utiliza los siguientes datos:
 
